@@ -1,0 +1,97 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.1
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly install loadAllDepsIntoIdealTree
+20 silly loadAllDepsIntoIdealTree Finishing
+21 silly idealTree:prePrune hip-vibe@0.0.0
+22 silly loadIdealTree Finishing
+23 silly currentTree hip-vibe@0.0.0
+24 silly idealTree hip-vibe@0.0.0
+25 silly generateActionsToTake Starting
+26 silly install generateActionsToTake
+27 silly generateActionsToTake Finishing
+28 silly diffTrees action count 0
+29 silly decomposeActions action count 0
+30 silly executeActions Starting
+31 silly install executeActions
+32 silly doSerial global-install 0
+33 silly doParallel fetch 0
+34 verbose lock using /home/theo/.npm/_locks/staging-92bf622d25318de7.lock for /home/theo/GitHub/Lighthouse/HipVibe/node_modules/.staging
+35 silly doParallel extract 0
+36 silly doParallel preinstall 0
+37 silly doReverseSerial remove 0
+38 silly doSerial move 0
+39 silly doSerial finalize 0
+40 silly doSerial build 0
+41 silly doSerial global-link 0
+42 silly doParallel update-linked 0
+43 silly doSerial install 0
+44 silly doSerial postinstall 0
+45 verbose unlock done using /home/theo/.npm/_locks/staging-92bf622d25318de7.lock for /home/theo/GitHub/Lighthouse/HipVibe/node_modules/.staging
+46 silly executeActions Finishing
+47 silly rollbackFailedOptional Starting
+48 silly rollbackFailedOptional Finishing
+49 silly runTopLevelLifecycles Starting
+50 silly install runTopLevelLifecycles
+51 silly preinstall hip-vibe@0.0.0 /home/theo/GitHub/Lighthouse/HipVibe/hip-vibe-b986bcec52cc896683dfd9d75ff346a3
+52 info lifecycle hip-vibe@0.0.0~preinstall: hip-vibe@0.0.0
+53 silly lifecycle hip-vibe@0.0.0~preinstall: no script for preinstall, continuing
+54 silly build hip-vibe@0.0.0
+55 info linkStuff hip-vibe@0.0.0
+56 silly linkStuff hip-vibe@0.0.0 has /home/theo/GitHub/Lighthouse as its parent node_modules
+57 verbose linkBins hip-vibe@0.0.0
+58 verbose linkMans hip-vibe@0.0.0
+59 silly install hip-vibe@0.0.0 /home/theo/GitHub/Lighthouse/HipVibe/hip-vibe-b986bcec52cc896683dfd9d75ff346a3
+60 info lifecycle hip-vibe@0.0.0~install: hip-vibe@0.0.0
+61 verbose lifecycle hip-vibe@0.0.0~install: unsafe-perm in lifecycle true
+62 verbose lifecycle hip-vibe@0.0.0~install: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/theo/GitHub/Lighthouse/HipVibe/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+63 verbose lifecycle hip-vibe@0.0.0~install: CWD: /home/theo/GitHub/Lighthouse/HipVibe
+64 silly lifecycle hip-vibe@0.0.0~install: Args: [ '-c',
+64 silly lifecycle   '(cd client && npm install) && (cd server && npm install)' ]
+65 silly lifecycle hip-vibe@0.0.0~install: Returned: code: 3  signal: null
+66 info lifecycle hip-vibe@0.0.0~install: Failed to exec install script
+67 verbose stack Error: hip-vibe@0.0.0 install: `(cd client && npm install) && (cd server && npm install)`
+67 verbose stack Exit status 3
+67 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:232:16)
+67 verbose stack     at EventEmitter.emit (events.js:98:17)
+67 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+67 verbose stack     at ChildProcess.emit (events.js:98:17)
+67 verbose stack     at maybeClose (child_process.js:766:16)
+67 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:833:5)
+68 verbose pkgid hip-vibe@0.0.0
+69 verbose cwd /home/theo/GitHub/Lighthouse/HipVibe
+70 error Linux 3.19.0-31-generic
+71 error argv "node" "/usr/bin/npm" "install"
+72 error node v0.10.37
+73 error npm  v3.5.1
+74 error code ELIFECYCLE
+75 error hip-vibe@0.0.0 install: `(cd client && npm install) && (cd server && npm install)`
+75 error Exit status 3
+76 error Failed at the hip-vibe@0.0.0 install script '(cd client && npm install) && (cd server && npm install)'.
+76 error Make sure you have the latest version of node.js and npm installed.
+76 error If you do, this is most likely a problem with the hip-vibe package,
+76 error not with npm itself.
+76 error Tell the author that this fails on your system:
+76 error     (cd client && npm install) && (cd server && npm install)
+76 error You can get information on how to open an issue for this project with:
+76 error     npm bugs hip-vibe
+76 error Or if that isn't available, you can get their info via:
+76 error     npm owner ls hip-vibe
+76 error There is likely additional logging output above.
+77 verbose exit [ 1, true ]

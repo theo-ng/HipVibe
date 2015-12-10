@@ -1,0 +1,3303 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.1
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly install loadAllDepsIntoIdealTree
+20 silly fetchNamedPackageData babel-core
+21 silly mapToRegistry name babel-core
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/babel-core
+25 silly fetchNamedPackageData babel-eslint
+26 silly mapToRegistry name babel-eslint
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry uri https://registry.npmjs.org/babel-eslint
+30 silly fetchNamedPackageData babel-loader
+31 silly mapToRegistry name babel-loader
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/babel-loader
+35 silly fetchNamedPackageData babel-runtime
+36 silly mapToRegistry name babel-runtime
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/babel-runtime
+40 silly fetchNamedPackageData bluebird
+41 silly mapToRegistry name bluebird
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/bluebird
+45 silly fetchNamedPackageData bootstrap
+46 silly mapToRegistry name bootstrap
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+50 silly fetchNamedPackageData bootstrap-markdown
+51 silly mapToRegistry name bootstrap-markdown
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry uri https://registry.npmjs.org/bootstrap-markdown
+55 silly fetchNamedPackageData chalk
+56 silly mapToRegistry name chalk
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/chalk
+60 silly fetchNamedPackageData checkit
+61 silly mapToRegistry name checkit
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry uri https://registry.npmjs.org/checkit
+65 silly fetchNamedPackageData classnames
+66 silly mapToRegistry name classnames
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry uri https://registry.npmjs.org/classnames
+70 silly fetchNamedPackageData compression-webpack-plugin
+71 silly mapToRegistry name compression-webpack-plugin
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry uri https://registry.npmjs.org/compression-webpack-plugin
+75 silly fetchNamedPackageData css-loader
+76 silly mapToRegistry name css-loader
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npmjs.org/
+79 silly mapToRegistry uri https://registry.npmjs.org/css-loader
+80 silly fetchNamedPackageData debug
+81 silly mapToRegistry name debug
+82 silly mapToRegistry using default registry
+83 silly mapToRegistry registry https://registry.npmjs.org/
+84 silly mapToRegistry uri https://registry.npmjs.org/debug
+85 silly fetchNamedPackageData eslint
+86 silly mapToRegistry name eslint
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry uri https://registry.npmjs.org/eslint
+90 silly fetchNamedPackageData eslint-loader
+91 silly mapToRegistry name eslint-loader
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry uri https://registry.npmjs.org/eslint-loader
+95 silly fetchNamedPackageData eslint-plugin-mocha
+96 silly mapToRegistry name eslint-plugin-mocha
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-mocha
+100 silly fetchNamedPackageData eslint-plugin-react
+101 silly mapToRegistry name eslint-plugin-react
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npmjs.org/
+104 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-react
+105 silly fetchNamedPackageData file-loader
+106 silly mapToRegistry name file-loader
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry uri https://registry.npmjs.org/file-loader
+110 silly fetchNamedPackageData font-awesome
+111 silly mapToRegistry name font-awesome
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry https://registry.npmjs.org/
+114 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+115 silly fetchNamedPackageData gulp
+116 silly mapToRegistry name gulp
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry uri https://registry.npmjs.org/gulp
+120 silly fetchNamedPackageData gulp-debug
+121 silly mapToRegistry name gulp-debug
+122 silly mapToRegistry using default registry
+123 silly mapToRegistry registry https://registry.npmjs.org/
+124 silly mapToRegistry uri https://registry.npmjs.org/gulp-debug
+125 silly fetchNamedPackageData gulp-imagemin
+126 silly mapToRegistry name gulp-imagemin
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry uri https://registry.npmjs.org/gulp-imagemin
+130 silly fetchNamedPackageData gulp-rimraf
+131 silly mapToRegistry name gulp-rimraf
+132 silly mapToRegistry using default registry
+133 silly mapToRegistry registry https://registry.npmjs.org/
+134 silly mapToRegistry uri https://registry.npmjs.org/gulp-rimraf
+135 silly fetchNamedPackageData gulp-stylus
+136 silly mapToRegistry name gulp-stylus
+137 silly mapToRegistry using default registry
+138 silly mapToRegistry registry https://registry.npmjs.org/
+139 silly mapToRegistry uri https://registry.npmjs.org/gulp-stylus
+140 silly fetchNamedPackageData gulp-util
+141 silly mapToRegistry name gulp-util
+142 silly mapToRegistry using default registry
+143 silly mapToRegistry registry https://registry.npmjs.org/
+144 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+145 silly fetchNamedPackageData history
+146 silly mapToRegistry name history
+147 silly mapToRegistry using default registry
+148 silly mapToRegistry registry https://registry.npmjs.org/
+149 silly mapToRegistry uri https://registry.npmjs.org/history
+150 silly fetchNamedPackageData imports-loader
+151 silly mapToRegistry name imports-loader
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry https://registry.npmjs.org/
+154 silly mapToRegistry uri https://registry.npmjs.org/imports-loader
+155 silly fetchNamedPackageData jquery
+156 silly mapToRegistry name jquery
+157 silly mapToRegistry using default registry
+158 silly mapToRegistry registry https://registry.npmjs.org/
+159 silly mapToRegistry uri https://registry.npmjs.org/jquery
+160 silly fetchNamedPackageData load-script
+161 silly mapToRegistry name load-script
+162 silly mapToRegistry using default registry
+163 silly mapToRegistry registry https://registry.npmjs.org/
+164 silly mapToRegistry uri https://registry.npmjs.org/load-script
+165 silly fetchNamedPackageData lodash
+166 silly mapToRegistry name lodash
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry uri https://registry.npmjs.org/lodash
+170 silly fetchNamedPackageData marked
+171 silly mapToRegistry name marked
+172 silly mapToRegistry using default registry
+173 silly mapToRegistry registry https://registry.npmjs.org/
+174 silly mapToRegistry uri https://registry.npmjs.org/marked
+175 silly fetchNamedPackageData moment
+176 silly mapToRegistry name moment
+177 silly mapToRegistry using default registry
+178 silly mapToRegistry registry https://registry.npmjs.org/
+179 silly mapToRegistry uri https://registry.npmjs.org/moment
+180 silly fetchNamedPackageData radium
+181 silly mapToRegistry name radium
+182 silly mapToRegistry using default registry
+183 silly mapToRegistry registry https://registry.npmjs.org/
+184 silly mapToRegistry uri https://registry.npmjs.org/radium
+185 silly fetchNamedPackageData react
+186 silly mapToRegistry name react
+187 silly mapToRegistry using default registry
+188 silly mapToRegistry registry https://registry.npmjs.org/
+189 silly mapToRegistry uri https://registry.npmjs.org/react
+190 silly fetchNamedPackageData react-addons-linked-state-mixin
+191 silly mapToRegistry name react-addons-linked-state-mixin
+192 silly mapToRegistry using default registry
+193 silly mapToRegistry registry https://registry.npmjs.org/
+194 silly mapToRegistry uri https://registry.npmjs.org/react-addons-linked-state-mixin
+195 silly fetchNamedPackageData react-bootstrap
+196 silly mapToRegistry name react-bootstrap
+197 silly mapToRegistry using default registry
+198 silly mapToRegistry registry https://registry.npmjs.org/
+199 silly mapToRegistry uri https://registry.npmjs.org/react-bootstrap
+200 silly fetchNamedPackageData react-burger-menu
+201 silly mapToRegistry name react-burger-menu
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry uri https://registry.npmjs.org/react-burger-menu
+205 silly fetchNamedPackageData react-cookie
+206 silly mapToRegistry name react-cookie
+207 silly mapToRegistry using default registry
+208 silly mapToRegistry registry https://registry.npmjs.org/
+209 silly mapToRegistry uri https://registry.npmjs.org/react-cookie
+210 silly fetchNamedPackageData react-doc-meta
+211 silly mapToRegistry name react-doc-meta
+212 silly mapToRegistry using default registry
+213 silly mapToRegistry registry https://registry.npmjs.org/
+214 silly mapToRegistry uri https://registry.npmjs.org/react-doc-meta
+215 silly fetchNamedPackageData react-dom
+216 silly mapToRegistry name react-dom
+217 silly mapToRegistry using default registry
+218 silly mapToRegistry registry https://registry.npmjs.org/
+219 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+220 silly fetchNamedPackageData react-ga
+221 silly mapToRegistry name react-ga
+222 silly mapToRegistry using default registry
+223 silly mapToRegistry registry https://registry.npmjs.org/
+224 silly mapToRegistry uri https://registry.npmjs.org/react-ga
+225 silly fetchNamedPackageData react-helmet
+226 silly mapToRegistry name react-helmet
+227 silly mapToRegistry using default registry
+228 silly mapToRegistry registry https://registry.npmjs.org/
+229 silly mapToRegistry uri https://registry.npmjs.org/react-helmet
+230 silly fetchNamedPackageData react-hot-loader
+231 silly mapToRegistry name react-hot-loader
+232 silly mapToRegistry using default registry
+233 silly mapToRegistry registry https://registry.npmjs.org/
+234 silly mapToRegistry uri https://registry.npmjs.org/react-hot-loader
+235 silly fetchNamedPackageData react-ladda
+236 silly mapToRegistry name react-ladda
+237 silly mapToRegistry using default registry
+238 silly mapToRegistry registry https://registry.npmjs.org/
+239 silly mapToRegistry uri https://registry.npmjs.org/react-ladda
+240 silly fetchNamedPackageData react-portal
+241 silly mapToRegistry name react-portal
+242 silly mapToRegistry using default registry
+243 silly mapToRegistry registry https://registry.npmjs.org/
+244 silly mapToRegistry uri https://registry.npmjs.org/react-portal
+245 silly fetchNamedPackageData react-router
+246 silly mapToRegistry name react-router
+247 silly mapToRegistry using default registry
+248 silly mapToRegistry registry https://registry.npmjs.org/
+249 silly mapToRegistry uri https://registry.npmjs.org/react-router
+250 silly fetchNamedPackageData react-select
+251 silly mapToRegistry name react-select
+252 silly mapToRegistry using default registry
+253 silly mapToRegistry registry https://registry.npmjs.org/
+254 silly mapToRegistry uri https://registry.npmjs.org/react-select
+255 silly fetchNamedPackageData react-textarea-autosize
+256 silly mapToRegistry name react-textarea-autosize
+257 silly mapToRegistry using default registry
+258 silly mapToRegistry registry https://registry.npmjs.org/
+259 silly mapToRegistry uri https://registry.npmjs.org/react-textarea-autosize
+260 silly fetchNamedPackageData reflux
+261 silly mapToRegistry name reflux
+262 silly mapToRegistry using default registry
+263 silly mapToRegistry registry https://registry.npmjs.org/
+264 silly mapToRegistry uri https://registry.npmjs.org/reflux
+265 silly fetchNamedPackageData reflux-core
+266 silly mapToRegistry name reflux-core
+267 silly mapToRegistry using default registry
+268 silly mapToRegistry registry https://registry.npmjs.org/
+269 silly mapToRegistry uri https://registry.npmjs.org/reflux-core
+270 silly fetchNamedPackageData reflux-promise
+271 silly mapToRegistry name reflux-promise
+272 silly mapToRegistry using default registry
+273 silly mapToRegistry registry https://registry.npmjs.org/
+274 silly mapToRegistry uri https://registry.npmjs.org/reflux-promise
+275 silly fetchNamedPackageData run-sequence
+276 silly mapToRegistry name run-sequence
+277 silly mapToRegistry using default registry
+278 silly mapToRegistry registry https://registry.npmjs.org/
+279 silly mapToRegistry uri https://registry.npmjs.org/run-sequence
+280 silly fetchNamedPackageData style-loader
+281 silly mapToRegistry name style-loader
+282 silly mapToRegistry using default registry
+283 silly mapToRegistry registry https://registry.npmjs.org/
+284 silly mapToRegistry uri https://registry.npmjs.org/style-loader
+285 silly fetchNamedPackageData url-loader
+286 silly mapToRegistry name url-loader
+287 silly mapToRegistry using default registry
+288 silly mapToRegistry registry https://registry.npmjs.org/
+289 silly mapToRegistry uri https://registry.npmjs.org/url-loader
+290 silly fetchNamedPackageData webpack
+291 silly mapToRegistry name webpack
+292 silly mapToRegistry using default registry
+293 silly mapToRegistry registry https://registry.npmjs.org/
+294 silly mapToRegistry uri https://registry.npmjs.org/webpack
+295 silly fetchNamedPackageData webpack-dev-server
+296 silly mapToRegistry name webpack-dev-server
+297 silly mapToRegistry using default registry
+298 silly mapToRegistry registry https://registry.npmjs.org/
+299 silly mapToRegistry uri https://registry.npmjs.org/webpack-dev-server
+300 silly fetchNamedPackageData webpack-stream
+301 silly mapToRegistry name webpack-stream
+302 silly mapToRegistry using default registry
+303 silly mapToRegistry registry https://registry.npmjs.org/
+304 silly mapToRegistry uri https://registry.npmjs.org/webpack-stream
+305 silly fetchNamedPackageData when
+306 silly mapToRegistry name when
+307 silly mapToRegistry using default registry
+308 silly mapToRegistry registry https://registry.npmjs.org/
+309 silly mapToRegistry uri https://registry.npmjs.org/when
+310 verbose request uri https://registry.npmjs.org/babel-eslint
+311 verbose request no auth needed
+312 info attempt registry request try #1 at 13:13:25
+313 verbose request id 2d116b8b547a3288
+314 verbose etag "78JRBMZES167KL1UJLDT8TCY0"
+315 http request GET https://registry.npmjs.org/babel-eslint
+316 verbose request uri https://registry.npmjs.org/babel-loader
+317 verbose request no auth needed
+318 info attempt registry request try #1 at 13:13:25
+319 verbose etag "163UV2E63JK03591OJAA0U368"
+320 http request GET https://registry.npmjs.org/babel-loader
+321 verbose request uri https://registry.npmjs.org/babel-runtime
+322 verbose request no auth needed
+323 info attempt registry request try #1 at 13:13:25
+324 verbose etag "BYNZR30XIDCFDUX17N4LR5XCO"
+325 http request GET https://registry.npmjs.org/babel-runtime
+326 verbose request uri https://registry.npmjs.org/bluebird
+327 verbose request no auth needed
+328 info attempt registry request try #1 at 13:13:25
+329 verbose etag "B2N429EUSLCV7OVHE0NN8P8XX"
+330 http request GET https://registry.npmjs.org/bluebird
+331 verbose request uri https://registry.npmjs.org/bootstrap
+332 verbose request no auth needed
+333 info attempt registry request try #1 at 13:13:25
+334 verbose etag "58H8HM1IVAXO0SK4D985COBGN"
+335 http request GET https://registry.npmjs.org/bootstrap
+336 verbose request uri https://registry.npmjs.org/bootstrap-markdown
+337 verbose request no auth needed
+338 info attempt registry request try #1 at 13:13:25
+339 verbose etag "F33OU863YEBUD3RRJ3VZZWFVV"
+340 http request GET https://registry.npmjs.org/bootstrap-markdown
+341 verbose request uri https://registry.npmjs.org/chalk
+342 verbose request no auth needed
+343 info attempt registry request try #1 at 13:13:25
+344 verbose etag "5YD9EBKICL35KH20KK14YPYNV"
+345 http request GET https://registry.npmjs.org/chalk
+346 verbose request uri https://registry.npmjs.org/checkit
+347 verbose request no auth needed
+348 info attempt registry request try #1 at 13:13:25
+349 verbose etag "2DV547D0YF83GATTQK19ZHAWU"
+350 http request GET https://registry.npmjs.org/checkit
+351 verbose request uri https://registry.npmjs.org/compression-webpack-plugin
+352 verbose request no auth needed
+353 info attempt registry request try #1 at 13:13:25
+354 verbose etag "4I9VTP3P958L3D9W05H4S18QH"
+355 http request GET https://registry.npmjs.org/compression-webpack-plugin
+356 verbose request uri https://registry.npmjs.org/css-loader
+357 verbose request no auth needed
+358 info attempt registry request try #1 at 13:13:25
+359 verbose etag "9KOWUIZYN5LB6W700QTPKBOK1"
+360 http request GET https://registry.npmjs.org/css-loader
+361 verbose request uri https://registry.npmjs.org/debug
+362 verbose request no auth needed
+363 info attempt registry request try #1 at 13:13:25
+364 verbose etag "C7GI7UKRTPM7NE18521B05WAT"
+365 http request GET https://registry.npmjs.org/debug
+366 verbose request uri https://registry.npmjs.org/eslint-loader
+367 verbose request no auth needed
+368 info attempt registry request try #1 at 13:13:25
+369 verbose etag "CQURQT0SC637XVXFQJ64D5LKK"
+370 http request GET https://registry.npmjs.org/eslint-loader
+371 verbose request uri https://registry.npmjs.org/eslint-plugin-mocha
+372 verbose request no auth needed
+373 info attempt registry request try #1 at 13:13:25
+374 verbose etag "OMPLH0ORQLKUH4LB9UVCV0FK"
+375 http request GET https://registry.npmjs.org/eslint-plugin-mocha
+376 verbose request uri https://registry.npmjs.org/classnames
+377 verbose request no auth needed
+378 info attempt registry request try #1 at 13:13:25
+379 verbose etag "C821ZBP4BBYZXBBRRP4FC7YGT"
+380 http request GET https://registry.npmjs.org/classnames
+381 verbose request uri https://registry.npmjs.org/eslint-plugin-react
+382 verbose request no auth needed
+383 info attempt registry request try #1 at 13:13:25
+384 verbose etag "8PUJY4GDH6OFB2M9VGUHIUZG7"
+385 http request GET https://registry.npmjs.org/eslint-plugin-react
+386 verbose request uri https://registry.npmjs.org/file-loader
+387 verbose request no auth needed
+388 info attempt registry request try #1 at 13:13:25
+389 verbose etag "58P8L32R30CTR8I91BYW4ONMA"
+390 http request GET https://registry.npmjs.org/file-loader
+391 verbose request uri https://registry.npmjs.org/font-awesome
+392 verbose request no auth needed
+393 info attempt registry request try #1 at 13:13:25
+394 verbose etag "CTPX0DD5Y0YB50R84VV6SV1JV"
+395 http request GET https://registry.npmjs.org/font-awesome
+396 verbose request uri https://registry.npmjs.org/gulp-debug
+397 verbose request no auth needed
+398 info attempt registry request try #1 at 13:13:25
+399 verbose etag "BFQAALVKO34DY50LPF8UY2KH1"
+400 http request GET https://registry.npmjs.org/gulp-debug
+401 verbose request uri https://registry.npmjs.org/gulp-imagemin
+402 verbose request no auth needed
+403 info attempt registry request try #1 at 13:13:25
+404 verbose etag "7FOBPODWZWD7IEPPBMQJH5O1V"
+405 http request GET https://registry.npmjs.org/gulp-imagemin
+406 verbose request uri https://registry.npmjs.org/gulp-rimraf
+407 verbose request no auth needed
+408 info attempt registry request try #1 at 13:13:25
+409 verbose etag "AOCMU6MPIR227O2AO1KXMF3YA"
+410 http request GET https://registry.npmjs.org/gulp-rimraf
+411 verbose request uri https://registry.npmjs.org/eslint
+412 verbose request no auth needed
+413 info attempt registry request try #1 at 13:13:25
+414 verbose etag "BR2UOGQ5WX2AZX4QU7EGJD52N"
+415 http request GET https://registry.npmjs.org/eslint
+416 verbose request uri https://registry.npmjs.org/gulp-stylus
+417 verbose request no auth needed
+418 info attempt registry request try #1 at 13:13:25
+419 verbose etag "6BMCCLBKG4YQFC57ZHZK90R1P"
+420 http request GET https://registry.npmjs.org/gulp-stylus
+421 verbose request uri https://registry.npmjs.org/gulp-util
+422 verbose request no auth needed
+423 info attempt registry request try #1 at 13:13:25
+424 verbose etag "ETJ76VP525WISUTD4LT5JAQ7R"
+425 http request GET https://registry.npmjs.org/gulp-util
+426 verbose request uri https://registry.npmjs.org/imports-loader
+427 verbose request no auth needed
+428 info attempt registry request try #1 at 13:13:25
+429 verbose etag "3MF0B4MX8O9QAE40B080WCK63"
+430 http request GET https://registry.npmjs.org/imports-loader
+431 verbose request uri https://registry.npmjs.org/jquery
+432 verbose request no auth needed
+433 info attempt registry request try #1 at 13:13:25
+434 verbose etag "YRIU6FKIE0OR8PI5V5OL0TE9"
+435 http request GET https://registry.npmjs.org/jquery
+436 verbose request uri https://registry.npmjs.org/load-script
+437 verbose request no auth needed
+438 info attempt registry request try #1 at 13:13:25
+439 verbose etag "8MCI83QQGJXEGP99GRKCNGCSB"
+440 http request GET https://registry.npmjs.org/load-script
+441 verbose request uri https://registry.npmjs.org/babel-core
+442 verbose request no auth needed
+443 info attempt registry request try #1 at 13:13:25
+444 verbose etag "4YMNG7A41QC4XSE1ATZEU0F9Y"
+445 http request GET https://registry.npmjs.org/babel-core
+446 verbose request uri https://registry.npmjs.org/marked
+447 verbose request no auth needed
+448 info attempt registry request try #1 at 13:13:25
+449 verbose etag "C0OAYPQC04ULP7OYL97YRQCUG"
+450 http request GET https://registry.npmjs.org/marked
+451 verbose request uri https://registry.npmjs.org/moment
+452 verbose request no auth needed
+453 info attempt registry request try #1 at 13:13:25
+454 verbose etag "1URCCJF8V701V147ECTJKSMSA"
+455 http request GET https://registry.npmjs.org/moment
+456 verbose request uri https://registry.npmjs.org/radium
+457 verbose request no auth needed
+458 info attempt registry request try #1 at 13:13:25
+459 verbose etag "B1VDP6BQUWRWQ0XWKC8IHRA16"
+460 http request GET https://registry.npmjs.org/radium
+461 verbose request uri https://registry.npmjs.org/react
+462 verbose request no auth needed
+463 info attempt registry request try #1 at 13:13:25
+464 verbose etag "3HXWVHKWEQ3CUOEFA5DYRXVO2"
+465 http request GET https://registry.npmjs.org/react
+466 verbose request uri https://registry.npmjs.org/react-addons-linked-state-mixin
+467 verbose request no auth needed
+468 info attempt registry request try #1 at 13:13:25
+469 verbose etag "AUK1AI2QN75L280V954NAEF7F"
+470 http request GET https://registry.npmjs.org/react-addons-linked-state-mixin
+471 verbose request uri https://registry.npmjs.org/gulp
+472 verbose request no auth needed
+473 info attempt registry request try #1 at 13:13:25
+474 verbose etag "E2WZ24KMVAVUQ8DNP8K3E4SI6"
+475 http request GET https://registry.npmjs.org/gulp
+476 verbose request uri https://registry.npmjs.org/react-burger-menu
+477 verbose request no auth needed
+478 info attempt registry request try #1 at 13:13:25
+479 verbose etag "48B7U00ZYB7BLU5961ZKRO9X0"
+480 http request GET https://registry.npmjs.org/react-burger-menu
+481 verbose request uri https://registry.npmjs.org/react-cookie
+482 verbose request no auth needed
+483 info attempt registry request try #1 at 13:13:25
+484 verbose etag "8HSWU7S52GUHJR26RUK3JZI2H"
+485 http request GET https://registry.npmjs.org/react-cookie
+486 verbose request uri https://registry.npmjs.org/react-doc-meta
+487 verbose request no auth needed
+488 info attempt registry request try #1 at 13:13:25
+489 verbose etag "BEX925W6WQUKDTVYYJCR2LCWE"
+490 http request GET https://registry.npmjs.org/react-doc-meta
+491 verbose request uri https://registry.npmjs.org/react-dom
+492 verbose request no auth needed
+493 info attempt registry request try #1 at 13:13:25
+494 verbose etag "6ZX2W59HQVV3X31XYZ3ZTKSTO"
+495 http request GET https://registry.npmjs.org/react-dom
+496 verbose request uri https://registry.npmjs.org/react-ga
+497 verbose request no auth needed
+498 info attempt registry request try #1 at 13:13:25
+499 verbose etag "9UE3V35XPZNKZYQNK0LY84B0E"
+500 http request GET https://registry.npmjs.org/react-ga
+501 verbose request uri https://registry.npmjs.org/react-helmet
+502 verbose request no auth needed
+503 info attempt registry request try #1 at 13:13:25
+504 verbose etag "92LFJU5S6OJDQHCOM0RLIHCHH"
+505 http request GET https://registry.npmjs.org/react-helmet
+506 verbose request uri https://registry.npmjs.org/react-hot-loader
+507 verbose request no auth needed
+508 info attempt registry request try #1 at 13:13:25
+509 verbose etag "5R9ZKIYLFRGPP4ULB42LWA3SA"
+510 http request GET https://registry.npmjs.org/react-hot-loader
+511 verbose request uri https://registry.npmjs.org/react-ladda
+512 verbose request no auth needed
+513 info attempt registry request try #1 at 13:13:25
+514 verbose etag "3TH1Q5GOJM4UUXV3L8GVZBH"
+515 http request GET https://registry.npmjs.org/react-ladda
+516 verbose request uri https://registry.npmjs.org/react-portal
+517 verbose request no auth needed
+518 info attempt registry request try #1 at 13:13:25
+519 verbose etag "49WXPRD4EZFYC17P5CJ7IB8A7"
+520 http request GET https://registry.npmjs.org/react-portal
+521 verbose request uri https://registry.npmjs.org/react-router
+522 verbose request no auth needed
+523 info attempt registry request try #1 at 13:13:25
+524 verbose etag "9Q7YU940F65EB9YO52152WDR6"
+525 http request GET https://registry.npmjs.org/react-router
+526 verbose request uri https://registry.npmjs.org/history
+527 verbose request no auth needed
+528 info attempt registry request try #1 at 13:13:25
+529 verbose etag "2IXX2BCZK8LZGK8FG9YP3I2UG"
+530 http request GET https://registry.npmjs.org/history
+531 verbose request uri https://registry.npmjs.org/react-textarea-autosize
+532 verbose request no auth needed
+533 info attempt registry request try #1 at 13:13:25
+534 verbose etag "BPUM994GYKX6RZ08AD3VVIIWP"
+535 http request GET https://registry.npmjs.org/react-textarea-autosize
+536 verbose request uri https://registry.npmjs.org/reflux
+537 verbose request no auth needed
+538 info attempt registry request try #1 at 13:13:25
+539 verbose etag "5987I3HFPT1ZXSI3P3VMTQ8VQ"
+540 http request GET https://registry.npmjs.org/reflux
+541 verbose request uri https://registry.npmjs.org/reflux-core
+542 verbose request no auth needed
+543 info attempt registry request try #1 at 13:13:25
+544 verbose etag "2UK46WPX8XNOTPN11UPTTA5AK"
+545 http request GET https://registry.npmjs.org/reflux-core
+546 verbose request uri https://registry.npmjs.org/reflux-promise
+547 verbose request no auth needed
+548 info attempt registry request try #1 at 13:13:25
+549 verbose etag "6BF1TVOXF0Q6R3LRA4PL9LXGA"
+550 http request GET https://registry.npmjs.org/reflux-promise
+551 verbose request uri https://registry.npmjs.org/run-sequence
+552 verbose request no auth needed
+553 info attempt registry request try #1 at 13:13:25
+554 verbose etag "6W9GVPA2ANQC5VKNXLQ80Z4HD"
+555 http request GET https://registry.npmjs.org/run-sequence
+556 verbose request uri https://registry.npmjs.org/style-loader
+557 verbose request no auth needed
+558 info attempt registry request try #1 at 13:13:25
+559 verbose etag "5VLG799WX3C6BF00PFT26FZ7L"
+560 http request GET https://registry.npmjs.org/style-loader
+561 verbose request uri https://registry.npmjs.org/url-loader
+562 verbose request no auth needed
+563 info attempt registry request try #1 at 13:13:25
+564 verbose etag "6G23Y3FKTDPWN8TAF4UEYCZ9P"
+565 http request GET https://registry.npmjs.org/url-loader
+566 verbose request uri https://registry.npmjs.org/lodash
+567 verbose request no auth needed
+568 info attempt registry request try #1 at 13:13:25
+569 verbose etag "5L5T1I2RTIR09BXLU46EGUFSN"
+570 http request GET https://registry.npmjs.org/lodash
+571 verbose request uri https://registry.npmjs.org/webpack-dev-server
+572 verbose request no auth needed
+573 info attempt registry request try #1 at 13:13:25
+574 verbose etag "E3XJ6OCVG4RMGM9L344GAXOA9"
+575 http request GET https://registry.npmjs.org/webpack-dev-server
+576 verbose request uri https://registry.npmjs.org/webpack-stream
+577 verbose request no auth needed
+578 info attempt registry request try #1 at 13:13:25
+579 verbose etag "BEI8FU9MCT92PTVTHHYDBW2U0"
+580 http request GET https://registry.npmjs.org/webpack-stream
+581 verbose request uri https://registry.npmjs.org/when
+582 verbose request no auth needed
+583 info attempt registry request try #1 at 13:13:25
+584 verbose etag "9LBPX8Z4RCSP7TE5F6P20MO7L"
+585 http request GET https://registry.npmjs.org/when
+586 verbose request uri https://registry.npmjs.org/react-bootstrap
+587 verbose request no auth needed
+588 info attempt registry request try #1 at 13:13:25
+589 verbose etag "4CJZLAVULMF9XKJ1RN38OPEJB"
+590 http request GET https://registry.npmjs.org/react-bootstrap
+591 verbose request uri https://registry.npmjs.org/react-select
+592 verbose request no auth needed
+593 info attempt registry request try #1 at 13:13:25
+594 verbose etag "3VBD8VP01EXHUMTRZBZHGTLDY"
+595 http request GET https://registry.npmjs.org/react-select
+596 verbose request uri https://registry.npmjs.org/webpack
+597 verbose request no auth needed
+598 info attempt registry request try #1 at 13:13:25
+599 verbose etag "3YSP7PVH52PNI20QEFXGX26NH"
+600 http request GET https://registry.npmjs.org/webpack
+601 http 304 https://registry.npmjs.org/babel-loader
+602 verbose headers { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+602 verbose headers   via: '1.1 varnish',
+602 verbose headers   'cache-control': 'max-age=60',
+602 verbose headers   etag: '"163UV2E63JK03591OJAA0U368"',
+602 verbose headers   age: '51',
+602 verbose headers   connection: 'keep-alive',
+602 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+602 verbose headers   'x-cache': 'HIT',
+602 verbose headers   'x-cache-hits': '1',
+602 verbose headers   'x-timer': 'S1449782006.532067,VS0,VE0',
+602 verbose headers   vary: 'Accept' }
+603 silly get cb [ 304,
+603 silly get   { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+603 silly get     via: '1.1 varnish',
+603 silly get     'cache-control': 'max-age=60',
+603 silly get     etag: '"163UV2E63JK03591OJAA0U368"',
+603 silly get     age: '51',
+603 silly get     connection: 'keep-alive',
+603 silly get     'x-served-by': 'cache-sjc3135-SJC',
+603 silly get     'x-cache': 'HIT',
+603 silly get     'x-cache-hits': '1',
+603 silly get     'x-timer': 'S1449782006.532067,VS0,VE0',
+603 silly get     vary: 'Accept' } ]
+604 verbose etag https://registry.npmjs.org/babel-loader from cache
+605 verbose get saving babel-loader to /home/theo/.npm/registry.npmjs.org/babel-loader/.cache.json
+606 silly resolveWithNewModule babel-loader@5.3.2 checking installable status
+607 silly cache add args [ 'babel-loader@5.3.2', null ]
+608 verbose cache add spec babel-loader@5.3.2
+609 silly cache add parsed spec { raw: 'babel-loader@5.3.2',
+609 silly cache add   scope: null,
+609 silly cache add   name: 'babel-loader',
+609 silly cache add   rawSpec: '5.3.2',
+609 silly cache add   spec: '5.3.2',
+609 silly cache add   type: 'version' }
+610 silly addNamed babel-loader@5.3.2
+611 verbose addNamed "5.3.2" is a plain semver version for babel-loader
+612 silly mapToRegistry name babel-loader
+613 silly mapToRegistry using default registry
+614 silly mapToRegistry registry https://registry.npmjs.org/
+615 silly mapToRegistry uri https://registry.npmjs.org/babel-loader
+616 verbose addNameVersion registry:https://registry.npmjs.org/babel-loader not in flight; fetching
+617 verbose get https://registry.npmjs.org/babel-loader not expired, no request
+618 silly cache afterAdd babel-loader@5.3.2
+619 verbose afterAdd /home/theo/.npm/babel-loader/5.3.2/package/package.json not in flight; writing
+620 verbose afterAdd /home/theo/.npm/babel-loader/5.3.2/package/package.json written
+621 http 304 https://registry.npmjs.org/bluebird
+622 verbose headers { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+622 verbose headers   via: '1.1 varnish',
+622 verbose headers   'cache-control': 'max-age=60',
+622 verbose headers   etag: '"B2N429EUSLCV7OVHE0NN8P8XX"',
+622 verbose headers   age: '3',
+622 verbose headers   connection: 'keep-alive',
+622 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+622 verbose headers   'x-cache': 'HIT',
+622 verbose headers   'x-cache-hits': '1',
+622 verbose headers   'x-timer': 'S1449782006.567719,VS0,VE2',
+622 verbose headers   vary: 'Accept' }
+623 silly get cb [ 304,
+623 silly get   { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+623 silly get     via: '1.1 varnish',
+623 silly get     'cache-control': 'max-age=60',
+623 silly get     etag: '"B2N429EUSLCV7OVHE0NN8P8XX"',
+623 silly get     age: '3',
+623 silly get     connection: 'keep-alive',
+623 silly get     'x-served-by': 'cache-sjc3133-SJC',
+623 silly get     'x-cache': 'HIT',
+623 silly get     'x-cache-hits': '1',
+623 silly get     'x-timer': 'S1449782006.567719,VS0,VE2',
+623 silly get     vary: 'Accept' } ]
+624 verbose etag https://registry.npmjs.org/bluebird from cache
+625 verbose get saving bluebird to /home/theo/.npm/registry.npmjs.org/bluebird/.cache.json
+626 http 304 https://registry.npmjs.org/babel-runtime
+627 verbose headers { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+627 verbose headers   via: '1.1 varnish',
+627 verbose headers   'cache-control': 'max-age=60',
+627 verbose headers   etag: '"BYNZR30XIDCFDUX17N4LR5XCO"',
+627 verbose headers   age: '20',
+627 verbose headers   connection: 'keep-alive',
+627 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+627 verbose headers   'x-cache': 'HIT',
+627 verbose headers   'x-cache-hits': '2',
+627 verbose headers   'x-timer': 'S1449782006.568715,VS0,VE0',
+627 verbose headers   vary: 'Accept' }
+628 silly get cb [ 304,
+628 silly get   { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+628 silly get     via: '1.1 varnish',
+628 silly get     'cache-control': 'max-age=60',
+628 silly get     etag: '"BYNZR30XIDCFDUX17N4LR5XCO"',
+628 silly get     age: '20',
+628 silly get     connection: 'keep-alive',
+628 silly get     'x-served-by': 'cache-sjc3127-SJC',
+628 silly get     'x-cache': 'HIT',
+628 silly get     'x-cache-hits': '2',
+628 silly get     'x-timer': 'S1449782006.568715,VS0,VE0',
+628 silly get     vary: 'Accept' } ]
+629 verbose etag https://registry.npmjs.org/babel-runtime from cache
+630 verbose get saving babel-runtime to /home/theo/.npm/registry.npmjs.org/babel-runtime/.cache.json
+631 http 304 https://registry.npmjs.org/babel-eslint
+632 verbose headers { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+632 verbose headers   via: '1.1 varnish',
+632 verbose headers   'cache-control': 'max-age=60',
+632 verbose headers   etag: '"78JRBMZES167KL1UJLDT8TCY0"',
+632 verbose headers   age: '44',
+632 verbose headers   connection: 'keep-alive',
+632 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+632 verbose headers   'x-cache': 'HIT',
+632 verbose headers   'x-cache-hits': '1',
+632 verbose headers   'x-timer': 'S1449782006.602171,VS0,VE0',
+632 verbose headers   vary: 'Accept' }
+633 silly get cb [ 304,
+633 silly get   { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+633 silly get     via: '1.1 varnish',
+633 silly get     'cache-control': 'max-age=60',
+633 silly get     etag: '"78JRBMZES167KL1UJLDT8TCY0"',
+633 silly get     age: '44',
+633 silly get     connection: 'keep-alive',
+633 silly get     'x-served-by': 'cache-lax1428-LAX',
+633 silly get     'x-cache': 'HIT',
+633 silly get     'x-cache-hits': '1',
+633 silly get     'x-timer': 'S1449782006.602171,VS0,VE0',
+633 silly get     vary: 'Accept' } ]
+634 verbose etag https://registry.npmjs.org/babel-eslint from cache
+635 verbose get saving babel-eslint to /home/theo/.npm/registry.npmjs.org/babel-eslint/.cache.json
+636 silly resolveWithNewModule bluebird@3.0.5 checking installable status
+637 silly cache add args [ 'bluebird@3.0.5', null ]
+638 verbose cache add spec bluebird@3.0.5
+639 silly cache add parsed spec { raw: 'bluebird@3.0.5',
+639 silly cache add   scope: null,
+639 silly cache add   name: 'bluebird',
+639 silly cache add   rawSpec: '3.0.5',
+639 silly cache add   spec: '3.0.5',
+639 silly cache add   type: 'version' }
+640 silly addNamed bluebird@3.0.5
+641 verbose addNamed "3.0.5" is a plain semver version for bluebird
+642 silly mapToRegistry name bluebird
+643 silly mapToRegistry using default registry
+644 silly mapToRegistry registry https://registry.npmjs.org/
+645 silly mapToRegistry uri https://registry.npmjs.org/bluebird
+646 verbose addNameVersion registry:https://registry.npmjs.org/bluebird not in flight; fetching
+647 silly resolveWithNewModule babel-runtime@5.8.25 checking installable status
+648 silly cache add args [ 'babel-runtime@5.8.25', null ]
+649 verbose cache add spec babel-runtime@5.8.25
+650 silly cache add parsed spec { raw: 'babel-runtime@5.8.25',
+650 silly cache add   scope: null,
+650 silly cache add   name: 'babel-runtime',
+650 silly cache add   rawSpec: '5.8.25',
+650 silly cache add   spec: '5.8.25',
+650 silly cache add   type: 'version' }
+651 silly addNamed babel-runtime@5.8.25
+652 verbose addNamed "5.8.25" is a plain semver version for babel-runtime
+653 silly mapToRegistry name babel-runtime
+654 silly mapToRegistry using default registry
+655 silly mapToRegistry registry https://registry.npmjs.org/
+656 silly mapToRegistry uri https://registry.npmjs.org/babel-runtime
+657 verbose addNameVersion registry:https://registry.npmjs.org/babel-runtime not in flight; fetching
+658 silly resolveWithNewModule babel-eslint@4.1.3 checking installable status
+659 silly cache add args [ 'babel-eslint@4.1.3', null ]
+660 verbose cache add spec babel-eslint@4.1.3
+661 silly cache add parsed spec { raw: 'babel-eslint@4.1.3',
+661 silly cache add   scope: null,
+661 silly cache add   name: 'babel-eslint',
+661 silly cache add   rawSpec: '4.1.3',
+661 silly cache add   spec: '4.1.3',
+661 silly cache add   type: 'version' }
+662 silly addNamed babel-eslint@4.1.3
+663 verbose addNamed "4.1.3" is a plain semver version for babel-eslint
+664 silly mapToRegistry name babel-eslint
+665 silly mapToRegistry using default registry
+666 silly mapToRegistry registry https://registry.npmjs.org/
+667 silly mapToRegistry uri https://registry.npmjs.org/babel-eslint
+668 verbose addNameVersion registry:https://registry.npmjs.org/babel-eslint not in flight; fetching
+669 http 304 https://registry.npmjs.org/bootstrap-markdown
+670 verbose headers { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+670 verbose headers   via: '1.1 varnish',
+670 verbose headers   'cache-control': 'max-age=300',
+670 verbose headers   etag: '"F33OU863YEBUD3RRJ3VZZWFVV"',
+670 verbose headers   age: '256',
+670 verbose headers   connection: 'keep-alive',
+670 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+670 verbose headers   'x-cache': 'HIT',
+670 verbose headers   'x-cache-hits': '2',
+670 verbose headers   'x-timer': 'S1449782006.655644,VS0,VE0',
+670 verbose headers   vary: 'Accept' }
+671 silly get cb [ 304,
+671 silly get   { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+671 silly get     via: '1.1 varnish',
+671 silly get     'cache-control': 'max-age=300',
+671 silly get     etag: '"F33OU863YEBUD3RRJ3VZZWFVV"',
+671 silly get     age: '256',
+671 silly get     connection: 'keep-alive',
+671 silly get     'x-served-by': 'cache-sjc3135-SJC',
+671 silly get     'x-cache': 'HIT',
+671 silly get     'x-cache-hits': '2',
+671 silly get     'x-timer': 'S1449782006.655644,VS0,VE0',
+671 silly get     vary: 'Accept' } ]
+672 verbose etag https://registry.npmjs.org/bootstrap-markdown from cache
+673 verbose get saving bootstrap-markdown to /home/theo/.npm/registry.npmjs.org/bootstrap-markdown/.cache.json
+674 verbose get https://registry.npmjs.org/bluebird not expired, no request
+675 verbose get https://registry.npmjs.org/babel-runtime not expired, no request
+676 http 304 https://registry.npmjs.org/chalk
+677 verbose headers { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+677 verbose headers   via: '1.1 varnish',
+677 verbose headers   'cache-control': 'max-age=60',
+677 verbose headers   etag: '"5YD9EBKICL35KH20KK14YPYNV"',
+677 verbose headers   age: '56',
+677 verbose headers   connection: 'keep-alive',
+677 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+677 verbose headers   'x-cache': 'HIT',
+677 verbose headers   'x-cache-hits': '10',
+677 verbose headers   'x-timer': 'S1449782006.678067,VS0,VE0',
+677 verbose headers   vary: 'Accept' }
+678 silly get cb [ 304,
+678 silly get   { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+678 silly get     via: '1.1 varnish',
+678 silly get     'cache-control': 'max-age=60',
+678 silly get     etag: '"5YD9EBKICL35KH20KK14YPYNV"',
+678 silly get     age: '56',
+678 silly get     connection: 'keep-alive',
+678 silly get     'x-served-by': 'cache-sjc3133-SJC',
+678 silly get     'x-cache': 'HIT',
+678 silly get     'x-cache-hits': '10',
+678 silly get     'x-timer': 'S1449782006.678067,VS0,VE0',
+678 silly get     vary: 'Accept' } ]
+679 verbose etag https://registry.npmjs.org/chalk from cache
+680 verbose get saving chalk to /home/theo/.npm/registry.npmjs.org/chalk/.cache.json
+681 http 304 https://registry.npmjs.org/bootstrap
+682 verbose headers { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+682 verbose headers   via: '1.1 varnish',
+682 verbose headers   'cache-control': 'max-age=60',
+682 verbose headers   etag: '"58H8HM1IVAXO0SK4D985COBGN"',
+682 verbose headers   age: '0',
+682 verbose headers   connection: 'keep-alive',
+682 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+682 verbose headers   'x-cache': 'HIT',
+682 verbose headers   'x-cache-hits': '1',
+682 verbose headers   'x-timer': 'S1449782006.629458,VS0,VE45',
+682 verbose headers   vary: 'Accept' }
+683 silly get cb [ 304,
+683 silly get   { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+683 silly get     via: '1.1 varnish',
+683 silly get     'cache-control': 'max-age=60',
+683 silly get     etag: '"58H8HM1IVAXO0SK4D985COBGN"',
+683 silly get     age: '0',
+683 silly get     connection: 'keep-alive',
+683 silly get     'x-served-by': 'cache-lax1433-LAX',
+683 silly get     'x-cache': 'HIT',
+683 silly get     'x-cache-hits': '1',
+683 silly get     'x-timer': 'S1449782006.629458,VS0,VE45',
+683 silly get     vary: 'Accept' } ]
+684 verbose etag https://registry.npmjs.org/bootstrap from cache
+685 verbose get saving bootstrap to /home/theo/.npm/registry.npmjs.org/bootstrap/.cache.json
+686 http 304 https://registry.npmjs.org/checkit
+687 verbose headers { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+687 verbose headers   via: '1.1 varnish',
+687 verbose headers   'cache-control': 'max-age=300',
+687 verbose headers   etag: '"2DV547D0YF83GATTQK19ZHAWU"',
+687 verbose headers   age: '57',
+687 verbose headers   connection: 'keep-alive',
+687 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+687 verbose headers   'x-cache': 'HIT',
+687 verbose headers   'x-cache-hits': '1',
+687 verbose headers   'x-timer': 'S1449782006.682917,VS0,VE0',
+687 verbose headers   vary: 'Accept' }
+688 silly get cb [ 304,
+688 silly get   { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+688 silly get     via: '1.1 varnish',
+688 silly get     'cache-control': 'max-age=300',
+688 silly get     etag: '"2DV547D0YF83GATTQK19ZHAWU"',
+688 silly get     age: '57',
+688 silly get     connection: 'keep-alive',
+688 silly get     'x-served-by': 'cache-sjc3127-SJC',
+688 silly get     'x-cache': 'HIT',
+688 silly get     'x-cache-hits': '1',
+688 silly get     'x-timer': 'S1449782006.682917,VS0,VE0',
+688 silly get     vary: 'Accept' } ]
+689 verbose etag https://registry.npmjs.org/checkit from cache
+690 verbose get saving checkit to /home/theo/.npm/registry.npmjs.org/checkit/.cache.json
+691 verbose get https://registry.npmjs.org/babel-eslint not expired, no request
+692 silly cache afterAdd bluebird@3.0.5
+693 verbose afterAdd /home/theo/.npm/bluebird/3.0.5/package/package.json not in flight; writing
+694 silly cache afterAdd babel-runtime@5.8.25
+695 verbose afterAdd /home/theo/.npm/babel-runtime/5.8.25/package/package.json not in flight; writing
+696 silly resolveWithNewModule bootstrap-markdown@2.9.0 checking installable status
+697 silly cache add args [ 'bootstrap-markdown@2.9.0', null ]
+698 verbose cache add spec bootstrap-markdown@2.9.0
+699 silly cache add parsed spec { raw: 'bootstrap-markdown@2.9.0',
+699 silly cache add   scope: null,
+699 silly cache add   name: 'bootstrap-markdown',
+699 silly cache add   rawSpec: '2.9.0',
+699 silly cache add   spec: '2.9.0',
+699 silly cache add   type: 'version' }
+700 silly addNamed bootstrap-markdown@2.9.0
+701 verbose addNamed "2.9.0" is a plain semver version for bootstrap-markdown
+702 silly mapToRegistry name bootstrap-markdown
+703 silly mapToRegistry using default registry
+704 silly mapToRegistry registry https://registry.npmjs.org/
+705 silly mapToRegistry uri https://registry.npmjs.org/bootstrap-markdown
+706 verbose addNameVersion registry:https://registry.npmjs.org/bootstrap-markdown not in flight; fetching
+707 silly resolveWithNewModule chalk@1.1.1 checking installable status
+708 silly cache add args [ 'chalk@1.1.1', null ]
+709 verbose cache add spec chalk@1.1.1
+710 silly cache add parsed spec { raw: 'chalk@1.1.1',
+710 silly cache add   scope: null,
+710 silly cache add   name: 'chalk',
+710 silly cache add   rawSpec: '1.1.1',
+710 silly cache add   spec: '1.1.1',
+710 silly cache add   type: 'version' }
+711 silly addNamed chalk@1.1.1
+712 verbose addNamed "1.1.1" is a plain semver version for chalk
+713 silly mapToRegistry name chalk
+714 silly mapToRegistry using default registry
+715 silly mapToRegistry registry https://registry.npmjs.org/
+716 silly mapToRegistry uri https://registry.npmjs.org/chalk
+717 verbose addNameVersion registry:https://registry.npmjs.org/chalk not in flight; fetching
+718 silly resolveWithNewModule bootstrap@3.3.5 checking installable status
+719 silly cache add args [ 'bootstrap@3.3.5', null ]
+720 verbose cache add spec bootstrap@3.3.5
+721 silly cache add parsed spec { raw: 'bootstrap@3.3.5',
+721 silly cache add   scope: null,
+721 silly cache add   name: 'bootstrap',
+721 silly cache add   rawSpec: '3.3.5',
+721 silly cache add   spec: '3.3.5',
+721 silly cache add   type: 'version' }
+722 silly addNamed bootstrap@3.3.5
+723 verbose addNamed "3.3.5" is a plain semver version for bootstrap
+724 silly mapToRegistry name bootstrap
+725 silly mapToRegistry using default registry
+726 silly mapToRegistry registry https://registry.npmjs.org/
+727 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+728 verbose addNameVersion registry:https://registry.npmjs.org/bootstrap not in flight; fetching
+729 silly resolveWithNewModule checkit@0.6.0 checking installable status
+730 silly cache add args [ 'checkit@0.6.0', null ]
+731 verbose cache add spec checkit@0.6.0
+732 silly cache add parsed spec { raw: 'checkit@0.6.0',
+732 silly cache add   scope: null,
+732 silly cache add   name: 'checkit',
+732 silly cache add   rawSpec: '0.6.0',
+732 silly cache add   spec: '0.6.0',
+732 silly cache add   type: 'version' }
+733 silly addNamed checkit@0.6.0
+734 verbose addNamed "0.6.0" is a plain semver version for checkit
+735 silly mapToRegistry name checkit
+736 silly mapToRegistry using default registry
+737 silly mapToRegistry registry https://registry.npmjs.org/
+738 silly mapToRegistry uri https://registry.npmjs.org/checkit
+739 verbose addNameVersion registry:https://registry.npmjs.org/checkit not in flight; fetching
+740 silly cache afterAdd babel-eslint@4.1.3
+741 verbose afterAdd /home/theo/.npm/babel-eslint/4.1.3/package/package.json not in flight; writing
+742 verbose afterAdd /home/theo/.npm/bluebird/3.0.5/package/package.json written
+743 verbose afterAdd /home/theo/.npm/babel-runtime/5.8.25/package/package.json written
+744 verbose get https://registry.npmjs.org/bootstrap-markdown not expired, no request
+745 verbose get https://registry.npmjs.org/chalk not expired, no request
+746 verbose get https://registry.npmjs.org/bootstrap not expired, no request
+747 verbose get https://registry.npmjs.org/checkit not expired, no request
+748 verbose afterAdd /home/theo/.npm/babel-eslint/4.1.3/package/package.json written
+749 silly cache afterAdd bootstrap-markdown@2.9.0
+750 verbose afterAdd /home/theo/.npm/bootstrap-markdown/2.9.0/package/package.json not in flight; writing
+751 http 304 https://registry.npmjs.org/compression-webpack-plugin
+752 verbose headers { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+752 verbose headers   via: '1.1 varnish',
+752 verbose headers   'cache-control': 'max-age=300',
+752 verbose headers   etag: '"4I9VTP3P958L3D9W05H4S18QH"',
+752 verbose headers   age: '210',
+752 verbose headers   connection: 'keep-alive',
+752 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+752 verbose headers   'x-cache': 'HIT',
+752 verbose headers   'x-cache-hits': '1',
+752 verbose headers   'x-timer': 'S1449782006.777352,VS0,VE0',
+752 verbose headers   vary: 'Accept' }
+753 silly get cb [ 304,
+753 silly get   { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+753 silly get     via: '1.1 varnish',
+753 silly get     'cache-control': 'max-age=300',
+753 silly get     etag: '"4I9VTP3P958L3D9W05H4S18QH"',
+753 silly get     age: '210',
+753 silly get     connection: 'keep-alive',
+753 silly get     'x-served-by': 'cache-lax1428-LAX',
+753 silly get     'x-cache': 'HIT',
+753 silly get     'x-cache-hits': '1',
+753 silly get     'x-timer': 'S1449782006.777352,VS0,VE0',
+753 silly get     vary: 'Accept' } ]
+754 verbose etag https://registry.npmjs.org/compression-webpack-plugin from cache
+755 verbose get saving compression-webpack-plugin to /home/theo/.npm/registry.npmjs.org/compression-webpack-plugin/.cache.json
+756 silly cache afterAdd chalk@1.1.1
+757 verbose afterAdd /home/theo/.npm/chalk/1.1.1/package/package.json not in flight; writing
+758 silly cache afterAdd bootstrap@3.3.5
+759 verbose afterAdd /home/theo/.npm/bootstrap/3.3.5/package/package.json not in flight; writing
+760 silly cache afterAdd checkit@0.6.0
+761 verbose afterAdd /home/theo/.npm/checkit/0.6.0/package/package.json not in flight; writing
+762 verbose afterAdd /home/theo/.npm/bootstrap-markdown/2.9.0/package/package.json written
+763 verbose afterAdd /home/theo/.npm/chalk/1.1.1/package/package.json written
+764 verbose afterAdd /home/theo/.npm/bootstrap/3.3.5/package/package.json written
+765 verbose afterAdd /home/theo/.npm/checkit/0.6.0/package/package.json written
+766 silly resolveWithNewModule compression-webpack-plugin@0.2.0 checking installable status
+767 silly cache add args [ 'compression-webpack-plugin@0.2.0', null ]
+768 verbose cache add spec compression-webpack-plugin@0.2.0
+769 silly cache add parsed spec { raw: 'compression-webpack-plugin@0.2.0',
+769 silly cache add   scope: null,
+769 silly cache add   name: 'compression-webpack-plugin',
+769 silly cache add   rawSpec: '0.2.0',
+769 silly cache add   spec: '0.2.0',
+769 silly cache add   type: 'version' }
+770 silly addNamed compression-webpack-plugin@0.2.0
+771 verbose addNamed "0.2.0" is a plain semver version for compression-webpack-plugin
+772 silly mapToRegistry name compression-webpack-plugin
+773 silly mapToRegistry using default registry
+774 silly mapToRegistry registry https://registry.npmjs.org/
+775 silly mapToRegistry uri https://registry.npmjs.org/compression-webpack-plugin
+776 verbose addNameVersion registry:https://registry.npmjs.org/compression-webpack-plugin not in flight; fetching
+777 verbose get https://registry.npmjs.org/compression-webpack-plugin not expired, no request
+778 silly cache afterAdd compression-webpack-plugin@0.2.0
+779 verbose afterAdd /home/theo/.npm/compression-webpack-plugin/0.2.0/package/package.json not in flight; writing
+780 verbose afterAdd /home/theo/.npm/compression-webpack-plugin/0.2.0/package/package.json written
+781 http 304 https://registry.npmjs.org/css-loader
+782 verbose headers { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+782 verbose headers   via: '1.1 varnish',
+782 verbose headers   'cache-control': 'max-age=60',
+782 verbose headers   etag: '"9KOWUIZYN5LB6W700QTPKBOK1"',
+782 verbose headers   age: '51',
+782 verbose headers   connection: 'keep-alive',
+782 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+782 verbose headers   'x-cache': 'HIT',
+782 verbose headers   'x-cache-hits': '1',
+782 verbose headers   'x-timer': 'S1449782006.936810,VS0,VE0',
+782 verbose headers   vary: 'Accept' }
+783 silly get cb [ 304,
+783 silly get   { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+783 silly get     via: '1.1 varnish',
+783 silly get     'cache-control': 'max-age=60',
+783 silly get     etag: '"9KOWUIZYN5LB6W700QTPKBOK1"',
+783 silly get     age: '51',
+783 silly get     connection: 'keep-alive',
+783 silly get     'x-served-by': 'cache-sjc3135-SJC',
+783 silly get     'x-cache': 'HIT',
+783 silly get     'x-cache-hits': '1',
+783 silly get     'x-timer': 'S1449782006.936810,VS0,VE0',
+783 silly get     vary: 'Accept' } ]
+784 verbose etag https://registry.npmjs.org/css-loader from cache
+785 verbose get saving css-loader to /home/theo/.npm/registry.npmjs.org/css-loader/.cache.json
+786 silly resolveWithNewModule css-loader@0.23.0 checking installable status
+787 silly cache add args [ 'css-loader@0.23.0', null ]
+788 verbose cache add spec css-loader@0.23.0
+789 silly cache add parsed spec { raw: 'css-loader@0.23.0',
+789 silly cache add   scope: null,
+789 silly cache add   name: 'css-loader',
+789 silly cache add   rawSpec: '0.23.0',
+789 silly cache add   spec: '0.23.0',
+789 silly cache add   type: 'version' }
+790 silly addNamed css-loader@0.23.0
+791 verbose addNamed "0.23.0" is a plain semver version for css-loader
+792 silly mapToRegistry name css-loader
+793 silly mapToRegistry using default registry
+794 silly mapToRegistry registry https://registry.npmjs.org/
+795 silly mapToRegistry uri https://registry.npmjs.org/css-loader
+796 verbose addNameVersion registry:https://registry.npmjs.org/css-loader not in flight; fetching
+797 verbose get https://registry.npmjs.org/css-loader not expired, no request
+798 silly cache afterAdd css-loader@0.23.0
+799 verbose afterAdd /home/theo/.npm/css-loader/0.23.0/package/package.json not in flight; writing
+800 verbose afterAdd /home/theo/.npm/css-loader/0.23.0/package/package.json written
+801 http 304 https://registry.npmjs.org/debug
+802 verbose headers { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+802 verbose headers   via: '1.1 varnish',
+802 verbose headers   'cache-control': 'max-age=60',
+802 verbose headers   etag: '"C7GI7UKRTPM7NE18521B05WAT"',
+802 verbose headers   age: '52',
+802 verbose headers   connection: 'keep-alive',
+802 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+802 verbose headers   'x-cache': 'HIT',
+802 verbose headers   'x-cache-hits': '7',
+802 verbose headers   'x-timer': 'S1449782006.995942,VS0,VE0',
+802 verbose headers   vary: 'Accept' }
+803 silly get cb [ 304,
+803 silly get   { date: 'Thu, 10 Dec 2015 21:13:26 GMT',
+803 silly get     via: '1.1 varnish',
+803 silly get     'cache-control': 'max-age=60',
+803 silly get     etag: '"C7GI7UKRTPM7NE18521B05WAT"',
+803 silly get     age: '52',
+803 silly get     connection: 'keep-alive',
+803 silly get     'x-served-by': 'cache-sjc3133-SJC',
+803 silly get     'x-cache': 'HIT',
+803 silly get     'x-cache-hits': '7',
+803 silly get     'x-timer': 'S1449782006.995942,VS0,VE0',
+803 silly get     vary: 'Accept' } ]
+804 verbose etag https://registry.npmjs.org/debug from cache
+805 verbose get saving debug to /home/theo/.npm/registry.npmjs.org/debug/.cache.json
+806 silly resolveWithNewModule debug@2.2.0 checking installable status
+807 silly cache add args [ 'debug@2.2.0', null ]
+808 verbose cache add spec debug@2.2.0
+809 silly cache add parsed spec { raw: 'debug@2.2.0',
+809 silly cache add   scope: null,
+809 silly cache add   name: 'debug',
+809 silly cache add   rawSpec: '2.2.0',
+809 silly cache add   spec: '2.2.0',
+809 silly cache add   type: 'version' }
+810 silly addNamed debug@2.2.0
+811 verbose addNamed "2.2.0" is a plain semver version for debug
+812 silly mapToRegistry name debug
+813 silly mapToRegistry using default registry
+814 silly mapToRegistry registry https://registry.npmjs.org/
+815 silly mapToRegistry uri https://registry.npmjs.org/debug
+816 verbose addNameVersion registry:https://registry.npmjs.org/debug not in flight; fetching
+817 verbose get https://registry.npmjs.org/debug not expired, no request
+818 silly cache afterAdd debug@2.2.0
+819 verbose afterAdd /home/theo/.npm/debug/2.2.0/package/package.json not in flight; writing
+820 verbose afterAdd /home/theo/.npm/debug/2.2.0/package/package.json written
+821 http 304 https://registry.npmjs.org/eslint-loader
+822 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+822 verbose headers   via: '1.1 varnish',
+822 verbose headers   'cache-control': 'max-age=60',
+822 verbose headers   etag: '"CQURQT0SC637XVXFQJ64D5LKK"',
+822 verbose headers   age: '4',
+822 verbose headers   connection: 'keep-alive',
+822 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+822 verbose headers   'x-cache': 'HIT',
+822 verbose headers   'x-cache-hits': '1',
+822 verbose headers   'x-timer': 'S1449782007.059878,VS0,VE0',
+822 verbose headers   vary: 'Accept' }
+823 silly get cb [ 304,
+823 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+823 silly get     via: '1.1 varnish',
+823 silly get     'cache-control': 'max-age=60',
+823 silly get     etag: '"CQURQT0SC637XVXFQJ64D5LKK"',
+823 silly get     age: '4',
+823 silly get     connection: 'keep-alive',
+823 silly get     'x-served-by': 'cache-lax1433-LAX',
+823 silly get     'x-cache': 'HIT',
+823 silly get     'x-cache-hits': '1',
+823 silly get     'x-timer': 'S1449782007.059878,VS0,VE0',
+823 silly get     vary: 'Accept' } ]
+824 verbose etag https://registry.npmjs.org/eslint-loader from cache
+825 verbose get saving eslint-loader to /home/theo/.npm/registry.npmjs.org/eslint-loader/.cache.json
+826 silly resolveWithNewModule eslint-loader@1.1.0 checking installable status
+827 silly cache add args [ 'eslint-loader@1.1.0', null ]
+828 verbose cache add spec eslint-loader@1.1.0
+829 silly cache add parsed spec { raw: 'eslint-loader@1.1.0',
+829 silly cache add   scope: null,
+829 silly cache add   name: 'eslint-loader',
+829 silly cache add   rawSpec: '1.1.0',
+829 silly cache add   spec: '1.1.0',
+829 silly cache add   type: 'version' }
+830 silly addNamed eslint-loader@1.1.0
+831 verbose addNamed "1.1.0" is a plain semver version for eslint-loader
+832 silly mapToRegistry name eslint-loader
+833 silly mapToRegistry using default registry
+834 silly mapToRegistry registry https://registry.npmjs.org/
+835 silly mapToRegistry uri https://registry.npmjs.org/eslint-loader
+836 verbose addNameVersion registry:https://registry.npmjs.org/eslint-loader not in flight; fetching
+837 verbose get https://registry.npmjs.org/eslint-loader not expired, no request
+838 silly cache afterAdd eslint-loader@1.1.0
+839 verbose afterAdd /home/theo/.npm/eslint-loader/1.1.0/package/package.json not in flight; writing
+840 verbose afterAdd /home/theo/.npm/eslint-loader/1.1.0/package/package.json written
+841 http 304 https://registry.npmjs.org/eslint-plugin-mocha
+842 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+842 verbose headers   via: '1.1 varnish',
+842 verbose headers   'cache-control': 'max-age=60',
+842 verbose headers   etag: '"OMPLH0ORQLKUH4LB9UVCV0FK"',
+842 verbose headers   age: '58',
+842 verbose headers   connection: 'keep-alive',
+842 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+842 verbose headers   'x-cache': 'HIT',
+842 verbose headers   'x-cache-hits': '1',
+842 verbose headers   'x-timer': 'S1449782007.096199,VS0,VE0',
+842 verbose headers   vary: 'Accept' }
+843 silly get cb [ 304,
+843 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+843 silly get     via: '1.1 varnish',
+843 silly get     'cache-control': 'max-age=60',
+843 silly get     etag: '"OMPLH0ORQLKUH4LB9UVCV0FK"',
+843 silly get     age: '58',
+843 silly get     connection: 'keep-alive',
+843 silly get     'x-served-by': 'cache-sjc3127-SJC',
+843 silly get     'x-cache': 'HIT',
+843 silly get     'x-cache-hits': '1',
+843 silly get     'x-timer': 'S1449782007.096199,VS0,VE0',
+843 silly get     vary: 'Accept' } ]
+844 verbose etag https://registry.npmjs.org/eslint-plugin-mocha from cache
+845 verbose get saving eslint-plugin-mocha to /home/theo/.npm/registry.npmjs.org/eslint-plugin-mocha/.cache.json
+846 silly resolveWithNewModule eslint-plugin-mocha@1.0.0 checking installable status
+847 silly cache add args [ 'eslint-plugin-mocha@1.0.0', null ]
+848 verbose cache add spec eslint-plugin-mocha@1.0.0
+849 silly cache add parsed spec { raw: 'eslint-plugin-mocha@1.0.0',
+849 silly cache add   scope: null,
+849 silly cache add   name: 'eslint-plugin-mocha',
+849 silly cache add   rawSpec: '1.0.0',
+849 silly cache add   spec: '1.0.0',
+849 silly cache add   type: 'version' }
+850 silly addNamed eslint-plugin-mocha@1.0.0
+851 verbose addNamed "1.0.0" is a plain semver version for eslint-plugin-mocha
+852 silly mapToRegistry name eslint-plugin-mocha
+853 silly mapToRegistry using default registry
+854 silly mapToRegistry registry https://registry.npmjs.org/
+855 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-mocha
+856 verbose addNameVersion registry:https://registry.npmjs.org/eslint-plugin-mocha not in flight; fetching
+857 verbose get https://registry.npmjs.org/eslint-plugin-mocha not expired, no request
+858 silly cache afterAdd eslint-plugin-mocha@1.0.0
+859 verbose afterAdd /home/theo/.npm/eslint-plugin-mocha/1.0.0/package/package.json not in flight; writing
+860 verbose afterAdd /home/theo/.npm/eslint-plugin-mocha/1.0.0/package/package.json written
+861 http 304 https://registry.npmjs.org/classnames
+862 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+862 verbose headers   via: '1.1 varnish',
+862 verbose headers   'cache-control': 'max-age=60',
+862 verbose headers   etag: '"C821ZBP4BBYZXBBRRP4FC7YGT"',
+862 verbose headers   age: '6',
+862 verbose headers   connection: 'keep-alive',
+862 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+862 verbose headers   'x-cache': 'HIT',
+862 verbose headers   'x-cache-hits': '1',
+862 verbose headers   'x-timer': 'S1449782007.157816,VS0,VE0',
+862 verbose headers   vary: 'Accept' }
+863 silly get cb [ 304,
+863 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+863 silly get     via: '1.1 varnish',
+863 silly get     'cache-control': 'max-age=60',
+863 silly get     etag: '"C821ZBP4BBYZXBBRRP4FC7YGT"',
+863 silly get     age: '6',
+863 silly get     connection: 'keep-alive',
+863 silly get     'x-served-by': 'cache-lax1428-LAX',
+863 silly get     'x-cache': 'HIT',
+863 silly get     'x-cache-hits': '1',
+863 silly get     'x-timer': 'S1449782007.157816,VS0,VE0',
+863 silly get     vary: 'Accept' } ]
+864 verbose etag https://registry.npmjs.org/classnames from cache
+865 verbose get saving classnames to /home/theo/.npm/registry.npmjs.org/classnames/.cache.json
+866 silly resolveWithNewModule classnames@2.2.0 checking installable status
+867 silly cache add args [ 'classnames@2.2.0', null ]
+868 verbose cache add spec classnames@2.2.0
+869 silly cache add parsed spec { raw: 'classnames@2.2.0',
+869 silly cache add   scope: null,
+869 silly cache add   name: 'classnames',
+869 silly cache add   rawSpec: '2.2.0',
+869 silly cache add   spec: '2.2.0',
+869 silly cache add   type: 'version' }
+870 silly addNamed classnames@2.2.0
+871 verbose addNamed "2.2.0" is a plain semver version for classnames
+872 silly mapToRegistry name classnames
+873 silly mapToRegistry using default registry
+874 silly mapToRegistry registry https://registry.npmjs.org/
+875 silly mapToRegistry uri https://registry.npmjs.org/classnames
+876 verbose addNameVersion registry:https://registry.npmjs.org/classnames not in flight; fetching
+877 verbose get https://registry.npmjs.org/classnames not expired, no request
+878 silly cache afterAdd classnames@2.2.0
+879 verbose afterAdd /home/theo/.npm/classnames/2.2.0/package/package.json not in flight; writing
+880 verbose afterAdd /home/theo/.npm/classnames/2.2.0/package/package.json written
+881 http 304 https://registry.npmjs.org/file-loader
+882 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+882 verbose headers   via: '1.1 varnish',
+882 verbose headers   'cache-control': 'max-age=60',
+882 verbose headers   etag: '"58P8L32R30CTR8I91BYW4ONMA"',
+882 verbose headers   age: '58',
+882 verbose headers   connection: 'keep-alive',
+882 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+882 verbose headers   'x-cache': 'HIT',
+882 verbose headers   'x-cache-hits': '1',
+882 verbose headers   'x-timer': 'S1449782007.194280,VS0,VE0',
+882 verbose headers   vary: 'Accept' }
+883 silly get cb [ 304,
+883 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+883 silly get     via: '1.1 varnish',
+883 silly get     'cache-control': 'max-age=60',
+883 silly get     etag: '"58P8L32R30CTR8I91BYW4ONMA"',
+883 silly get     age: '58',
+883 silly get     connection: 'keep-alive',
+883 silly get     'x-served-by': 'cache-sjc3133-SJC',
+883 silly get     'x-cache': 'HIT',
+883 silly get     'x-cache-hits': '1',
+883 silly get     'x-timer': 'S1449782007.194280,VS0,VE0',
+883 silly get     vary: 'Accept' } ]
+884 verbose etag https://registry.npmjs.org/file-loader from cache
+885 verbose get saving file-loader to /home/theo/.npm/registry.npmjs.org/file-loader/.cache.json
+886 silly resolveWithNewModule file-loader@0.8.4 checking installable status
+887 silly cache add args [ 'file-loader@0.8.4', null ]
+888 verbose cache add spec file-loader@0.8.4
+889 silly cache add parsed spec { raw: 'file-loader@0.8.4',
+889 silly cache add   scope: null,
+889 silly cache add   name: 'file-loader',
+889 silly cache add   rawSpec: '0.8.4',
+889 silly cache add   spec: '0.8.4',
+889 silly cache add   type: 'version' }
+890 silly addNamed file-loader@0.8.4
+891 verbose addNamed "0.8.4" is a plain semver version for file-loader
+892 silly mapToRegistry name file-loader
+893 silly mapToRegistry using default registry
+894 silly mapToRegistry registry https://registry.npmjs.org/
+895 silly mapToRegistry uri https://registry.npmjs.org/file-loader
+896 verbose addNameVersion registry:https://registry.npmjs.org/file-loader not in flight; fetching
+897 verbose get https://registry.npmjs.org/file-loader not expired, no request
+898 silly cache afterAdd file-loader@0.8.4
+899 verbose afterAdd /home/theo/.npm/file-loader/0.8.4/package/package.json not in flight; writing
+900 verbose afterAdd /home/theo/.npm/file-loader/0.8.4/package/package.json written
+901 http 304 https://registry.npmjs.org/eslint-plugin-react
+902 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+902 verbose headers   via: '1.1 varnish',
+902 verbose headers   'cache-control': 'max-age=60',
+902 verbose headers   etag: '"8PUJY4GDH6OFB2M9VGUHIUZG7"',
+902 verbose headers   age: '0',
+902 verbose headers   connection: 'keep-alive',
+902 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+902 verbose headers   'x-cache': 'HIT',
+902 verbose headers   'x-cache-hits': '1',
+902 verbose headers   'x-timer': 'S1449782007.192361,VS0,VE37',
+902 verbose headers   vary: 'Accept' }
+903 silly get cb [ 304,
+903 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+903 silly get     via: '1.1 varnish',
+903 silly get     'cache-control': 'max-age=60',
+903 silly get     etag: '"8PUJY4GDH6OFB2M9VGUHIUZG7"',
+903 silly get     age: '0',
+903 silly get     connection: 'keep-alive',
+903 silly get     'x-served-by': 'cache-sjc3135-SJC',
+903 silly get     'x-cache': 'HIT',
+903 silly get     'x-cache-hits': '1',
+903 silly get     'x-timer': 'S1449782007.192361,VS0,VE37',
+903 silly get     vary: 'Accept' } ]
+904 verbose etag https://registry.npmjs.org/eslint-plugin-react from cache
+905 verbose get saving eslint-plugin-react to /home/theo/.npm/registry.npmjs.org/eslint-plugin-react/.cache.json
+906 http 304 https://registry.npmjs.org/gulp-debug
+907 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+907 verbose headers   via: '1.1 varnish',
+907 verbose headers   'cache-control': 'max-age=60',
+907 verbose headers   etag: '"BFQAALVKO34DY50LPF8UY2KH1"',
+907 verbose headers   age: '11',
+907 verbose headers   connection: 'keep-alive',
+907 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+907 verbose headers   'x-cache': 'HIT',
+907 verbose headers   'x-cache-hits': '1',
+907 verbose headers   'x-timer': 'S1449782007.235267,VS0,VE0',
+907 verbose headers   vary: 'Accept' }
+908 silly get cb [ 304,
+908 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+908 silly get     via: '1.1 varnish',
+908 silly get     'cache-control': 'max-age=60',
+908 silly get     etag: '"BFQAALVKO34DY50LPF8UY2KH1"',
+908 silly get     age: '11',
+908 silly get     connection: 'keep-alive',
+908 silly get     'x-served-by': 'cache-sjc3127-SJC',
+908 silly get     'x-cache': 'HIT',
+908 silly get     'x-cache-hits': '1',
+908 silly get     'x-timer': 'S1449782007.235267,VS0,VE0',
+908 silly get     vary: 'Accept' } ]
+909 verbose etag https://registry.npmjs.org/gulp-debug from cache
+910 verbose get saving gulp-debug to /home/theo/.npm/registry.npmjs.org/gulp-debug/.cache.json
+911 http 304 https://registry.npmjs.org/font-awesome
+912 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+912 verbose headers   via: '1.1 varnish',
+912 verbose headers   'cache-control': 'max-age=60',
+912 verbose headers   etag: '"CTPX0DD5Y0YB50R84VV6SV1JV"',
+912 verbose headers   age: '58',
+912 verbose headers   connection: 'keep-alive',
+912 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+912 verbose headers   'x-cache': 'HIT',
+912 verbose headers   'x-cache-hits': '1',
+912 verbose headers   'x-timer': 'S1449782007.233338,VS0,VE0',
+912 verbose headers   vary: 'Accept' }
+913 silly get cb [ 304,
+913 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+913 silly get     via: '1.1 varnish',
+913 silly get     'cache-control': 'max-age=60',
+913 silly get     etag: '"CTPX0DD5Y0YB50R84VV6SV1JV"',
+913 silly get     age: '58',
+913 silly get     connection: 'keep-alive',
+913 silly get     'x-served-by': 'cache-lax1433-LAX',
+913 silly get     'x-cache': 'HIT',
+913 silly get     'x-cache-hits': '1',
+913 silly get     'x-timer': 'S1449782007.233338,VS0,VE0',
+913 silly get     vary: 'Accept' } ]
+914 verbose etag https://registry.npmjs.org/font-awesome from cache
+915 verbose get saving font-awesome to /home/theo/.npm/registry.npmjs.org/font-awesome/.cache.json
+916 silly resolveWithNewModule eslint-plugin-react@3.10.0 checking installable status
+917 silly cache add args [ 'eslint-plugin-react@3.10.0', null ]
+918 verbose cache add spec eslint-plugin-react@3.10.0
+919 silly cache add parsed spec { raw: 'eslint-plugin-react@3.10.0',
+919 silly cache add   scope: null,
+919 silly cache add   name: 'eslint-plugin-react',
+919 silly cache add   rawSpec: '3.10.0',
+919 silly cache add   spec: '3.10.0',
+919 silly cache add   type: 'version' }
+920 silly addNamed eslint-plugin-react@3.10.0
+921 verbose addNamed "3.10.0" is a plain semver version for eslint-plugin-react
+922 silly mapToRegistry name eslint-plugin-react
+923 silly mapToRegistry using default registry
+924 silly mapToRegistry registry https://registry.npmjs.org/
+925 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-react
+926 verbose addNameVersion registry:https://registry.npmjs.org/eslint-plugin-react not in flight; fetching
+927 silly resolveWithNewModule gulp-debug@2.1.1 checking installable status
+928 silly cache add args [ 'gulp-debug@2.1.1', null ]
+929 verbose cache add spec gulp-debug@2.1.1
+930 silly cache add parsed spec { raw: 'gulp-debug@2.1.1',
+930 silly cache add   scope: null,
+930 silly cache add   name: 'gulp-debug',
+930 silly cache add   rawSpec: '2.1.1',
+930 silly cache add   spec: '2.1.1',
+930 silly cache add   type: 'version' }
+931 silly addNamed gulp-debug@2.1.1
+932 verbose addNamed "2.1.1" is a plain semver version for gulp-debug
+933 silly mapToRegistry name gulp-debug
+934 silly mapToRegistry using default registry
+935 silly mapToRegistry registry https://registry.npmjs.org/
+936 silly mapToRegistry uri https://registry.npmjs.org/gulp-debug
+937 verbose addNameVersion registry:https://registry.npmjs.org/gulp-debug not in flight; fetching
+938 silly resolveWithNewModule font-awesome@4.4.0 checking installable status
+939 silly cache add args [ 'font-awesome@4.4.0', null ]
+940 verbose cache add spec font-awesome@4.4.0
+941 silly cache add parsed spec { raw: 'font-awesome@4.4.0',
+941 silly cache add   scope: null,
+941 silly cache add   name: 'font-awesome',
+941 silly cache add   rawSpec: '4.4.0',
+941 silly cache add   spec: '4.4.0',
+941 silly cache add   type: 'version' }
+942 silly addNamed font-awesome@4.4.0
+943 verbose addNamed "4.4.0" is a plain semver version for font-awesome
+944 silly mapToRegistry name font-awesome
+945 silly mapToRegistry using default registry
+946 silly mapToRegistry registry https://registry.npmjs.org/
+947 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+948 verbose addNameVersion registry:https://registry.npmjs.org/font-awesome not in flight; fetching
+949 verbose get https://registry.npmjs.org/eslint-plugin-react not expired, no request
+950 verbose get https://registry.npmjs.org/gulp-debug not expired, no request
+951 verbose get https://registry.npmjs.org/font-awesome not expired, no request
+952 silly cache afterAdd eslint-plugin-react@3.10.0
+953 verbose afterAdd /home/theo/.npm/eslint-plugin-react/3.10.0/package/package.json not in flight; writing
+954 silly cache afterAdd gulp-debug@2.1.1
+955 verbose afterAdd /home/theo/.npm/gulp-debug/2.1.1/package/package.json not in flight; writing
+956 silly cache afterAdd font-awesome@4.4.0
+957 verbose afterAdd /home/theo/.npm/font-awesome/4.4.0/package/package.json not in flight; writing
+958 verbose afterAdd /home/theo/.npm/eslint-plugin-react/3.10.0/package/package.json written
+959 verbose afterAdd /home/theo/.npm/gulp-debug/2.1.1/package/package.json written
+960 verbose afterAdd /home/theo/.npm/font-awesome/4.4.0/package/package.json written
+961 http 304 https://registry.npmjs.org/gulp-imagemin
+962 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+962 verbose headers   via: '1.1 varnish',
+962 verbose headers   'cache-control': 'max-age=60',
+962 verbose headers   etag: '"7FOBPODWZWD7IEPPBMQJH5O1V"',
+962 verbose headers   age: '58',
+962 verbose headers   connection: 'keep-alive',
+962 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+962 verbose headers   'x-cache': 'HIT',
+962 verbose headers   'x-cache-hits': '1',
+962 verbose headers   'x-timer': 'S1449782007.337962,VS0,VE0',
+962 verbose headers   vary: 'Accept' }
+963 silly get cb [ 304,
+963 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+963 silly get     via: '1.1 varnish',
+963 silly get     'cache-control': 'max-age=60',
+963 silly get     etag: '"7FOBPODWZWD7IEPPBMQJH5O1V"',
+963 silly get     age: '58',
+963 silly get     connection: 'keep-alive',
+963 silly get     'x-served-by': 'cache-lax1428-LAX',
+963 silly get     'x-cache': 'HIT',
+963 silly get     'x-cache-hits': '1',
+963 silly get     'x-timer': 'S1449782007.337962,VS0,VE0',
+963 silly get     vary: 'Accept' } ]
+964 verbose etag https://registry.npmjs.org/gulp-imagemin from cache
+965 verbose get saving gulp-imagemin to /home/theo/.npm/registry.npmjs.org/gulp-imagemin/.cache.json
+966 silly resolveWithNewModule gulp-imagemin@2.4.0 checking installable status
+967 silly cache add args [ 'gulp-imagemin@2.4.0', null ]
+968 verbose cache add spec gulp-imagemin@2.4.0
+969 silly cache add parsed spec { raw: 'gulp-imagemin@2.4.0',
+969 silly cache add   scope: null,
+969 silly cache add   name: 'gulp-imagemin',
+969 silly cache add   rawSpec: '2.4.0',
+969 silly cache add   spec: '2.4.0',
+969 silly cache add   type: 'version' }
+970 silly addNamed gulp-imagemin@2.4.0
+971 verbose addNamed "2.4.0" is a plain semver version for gulp-imagemin
+972 silly mapToRegistry name gulp-imagemin
+973 silly mapToRegistry using default registry
+974 silly mapToRegistry registry https://registry.npmjs.org/
+975 silly mapToRegistry uri https://registry.npmjs.org/gulp-imagemin
+976 verbose addNameVersion registry:https://registry.npmjs.org/gulp-imagemin not in flight; fetching
+977 verbose get https://registry.npmjs.org/gulp-imagemin not expired, no request
+978 silly cache afterAdd gulp-imagemin@2.4.0
+979 verbose afterAdd /home/theo/.npm/gulp-imagemin/2.4.0/package/package.json not in flight; writing
+980 verbose afterAdd /home/theo/.npm/gulp-imagemin/2.4.0/package/package.json written
+981 http 304 https://registry.npmjs.org/gulp-rimraf
+982 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+982 verbose headers   via: '1.1 varnish',
+982 verbose headers   'cache-control': 'max-age=60',
+982 verbose headers   etag: '"AOCMU6MPIR227O2AO1KXMF3YA"',
+982 verbose headers   age: '0',
+982 verbose headers   connection: 'keep-alive',
+982 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+982 verbose headers   'x-cache': 'HIT',
+982 verbose headers   'x-cache-hits': '1',
+982 verbose headers   'x-timer': 'S1449782007.489535,VS0,VE86',
+982 verbose headers   vary: 'Accept' }
+983 silly get cb [ 304,
+983 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+983 silly get     via: '1.1 varnish',
+983 silly get     'cache-control': 'max-age=60',
+983 silly get     etag: '"AOCMU6MPIR227O2AO1KXMF3YA"',
+983 silly get     age: '0',
+983 silly get     connection: 'keep-alive',
+983 silly get     'x-served-by': 'cache-sjc3133-SJC',
+983 silly get     'x-cache': 'HIT',
+983 silly get     'x-cache-hits': '1',
+983 silly get     'x-timer': 'S1449782007.489535,VS0,VE86',
+983 silly get     vary: 'Accept' } ]
+984 verbose etag https://registry.npmjs.org/gulp-rimraf from cache
+985 verbose get saving gulp-rimraf to /home/theo/.npm/registry.npmjs.org/gulp-rimraf/.cache.json
+986 silly resolveWithNewModule gulp-rimraf@0.2.0 checking installable status
+987 silly cache add args [ 'gulp-rimraf@0.2.0', null ]
+988 verbose cache add spec gulp-rimraf@0.2.0
+989 silly cache add parsed spec { raw: 'gulp-rimraf@0.2.0',
+989 silly cache add   scope: null,
+989 silly cache add   name: 'gulp-rimraf',
+989 silly cache add   rawSpec: '0.2.0',
+989 silly cache add   spec: '0.2.0',
+989 silly cache add   type: 'version' }
+990 silly addNamed gulp-rimraf@0.2.0
+991 verbose addNamed "0.2.0" is a plain semver version for gulp-rimraf
+992 silly mapToRegistry name gulp-rimraf
+993 silly mapToRegistry using default registry
+994 silly mapToRegistry registry https://registry.npmjs.org/
+995 silly mapToRegistry uri https://registry.npmjs.org/gulp-rimraf
+996 verbose addNameVersion registry:https://registry.npmjs.org/gulp-rimraf not in flight; fetching
+997 verbose get https://registry.npmjs.org/gulp-rimraf not expired, no request
+998 silly cache afterAdd gulp-rimraf@0.2.0
+999 verbose afterAdd /home/theo/.npm/gulp-rimraf/0.2.0/package/package.json not in flight; writing
+1000 verbose afterAdd /home/theo/.npm/gulp-rimraf/0.2.0/package/package.json written
+1001 http 304 https://registry.npmjs.org/eslint
+1002 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+1002 verbose headers   via: '1.1 varnish',
+1002 verbose headers   'cache-control': 'max-age=60',
+1002 verbose headers   etag: '"BR2UOGQ5WX2AZX4QU7EGJD52N"',
+1002 verbose headers   age: '0',
+1002 verbose headers   connection: 'keep-alive',
+1002 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+1002 verbose headers   'x-cache': 'HIT',
+1002 verbose headers   'x-cache-hits': '1',
+1002 verbose headers   'x-timer': 'S1449782007.636564,VS0,VE38',
+1002 verbose headers   vary: 'Accept' }
+1003 silly get cb [ 304,
+1003 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+1003 silly get     via: '1.1 varnish',
+1003 silly get     'cache-control': 'max-age=60',
+1003 silly get     etag: '"BR2UOGQ5WX2AZX4QU7EGJD52N"',
+1003 silly get     age: '0',
+1003 silly get     connection: 'keep-alive',
+1003 silly get     'x-served-by': 'cache-sjc3135-SJC',
+1003 silly get     'x-cache': 'HIT',
+1003 silly get     'x-cache-hits': '1',
+1003 silly get     'x-timer': 'S1449782007.636564,VS0,VE38',
+1003 silly get     vary: 'Accept' } ]
+1004 verbose etag https://registry.npmjs.org/eslint from cache
+1005 verbose get saving eslint to /home/theo/.npm/registry.npmjs.org/eslint/.cache.json
+1006 silly resolveWithNewModule eslint@1.10.1 checking installable status
+1007 silly cache add args [ 'eslint@1.10.1', null ]
+1008 verbose cache add spec eslint@1.10.1
+1009 silly cache add parsed spec { raw: 'eslint@1.10.1',
+1009 silly cache add   scope: null,
+1009 silly cache add   name: 'eslint',
+1009 silly cache add   rawSpec: '1.10.1',
+1009 silly cache add   spec: '1.10.1',
+1009 silly cache add   type: 'version' }
+1010 silly addNamed eslint@1.10.1
+1011 verbose addNamed "1.10.1" is a plain semver version for eslint
+1012 silly mapToRegistry name eslint
+1013 silly mapToRegistry using default registry
+1014 silly mapToRegistry registry https://registry.npmjs.org/
+1015 silly mapToRegistry uri https://registry.npmjs.org/eslint
+1016 verbose addNameVersion registry:https://registry.npmjs.org/eslint not in flight; fetching
+1017 verbose get https://registry.npmjs.org/eslint not expired, no request
+1018 silly mapToRegistry name eslint
+1019 silly mapToRegistry using default registry
+1020 silly mapToRegistry registry https://registry.npmjs.org/
+1021 silly mapToRegistry uri https://registry.npmjs.org/eslint
+1022 verbose addRemoteTarball https://registry.npmjs.org/eslint/-/eslint-1.10.1.tgz not in flight; adding
+1023 verbose addRemoteTarball [ 'https://registry.npmjs.org/eslint/-/eslint-1.10.1.tgz',
+1023 verbose addRemoteTarball   '174878e3229c008210b9414c3ca3a054c9f1628c' ]
+1024 info retry fetch attempt 1 at 13:13:27
+1025 info attempt registry request try #1 at 13:13:27
+1026 http fetch GET https://registry.npmjs.org/eslint/-/eslint-1.10.1.tgz
+1027 http 304 https://registry.npmjs.org/gulp-stylus
+1028 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+1028 verbose headers   via: '1.1 varnish',
+1028 verbose headers   'cache-control': 'max-age=60',
+1028 verbose headers   etag: '"6BMCCLBKG4YQFC57ZHZK90R1P"',
+1028 verbose headers   age: '58',
+1028 verbose headers   connection: 'keep-alive',
+1028 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+1028 verbose headers   'x-cache': 'HIT',
+1028 verbose headers   'x-cache-hits': '1',
+1028 verbose headers   'x-timer': 'S1449782007.707191,VS0,VE0',
+1028 verbose headers   vary: 'Accept' }
+1029 silly get cb [ 304,
+1029 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+1029 silly get     via: '1.1 varnish',
+1029 silly get     'cache-control': 'max-age=60',
+1029 silly get     etag: '"6BMCCLBKG4YQFC57ZHZK90R1P"',
+1029 silly get     age: '58',
+1029 silly get     connection: 'keep-alive',
+1029 silly get     'x-served-by': 'cache-sjc3127-SJC',
+1029 silly get     'x-cache': 'HIT',
+1029 silly get     'x-cache-hits': '1',
+1029 silly get     'x-timer': 'S1449782007.707191,VS0,VE0',
+1029 silly get     vary: 'Accept' } ]
+1030 verbose etag https://registry.npmjs.org/gulp-stylus from cache
+1031 verbose get saving gulp-stylus to /home/theo/.npm/registry.npmjs.org/gulp-stylus/.cache.json
+1032 silly resolveWithNewModule gulp-stylus@2.1.0 checking installable status
+1033 silly cache add args [ 'gulp-stylus@2.1.0', null ]
+1034 verbose cache add spec gulp-stylus@2.1.0
+1035 silly cache add parsed spec { raw: 'gulp-stylus@2.1.0',
+1035 silly cache add   scope: null,
+1035 silly cache add   name: 'gulp-stylus',
+1035 silly cache add   rawSpec: '2.1.0',
+1035 silly cache add   spec: '2.1.0',
+1035 silly cache add   type: 'version' }
+1036 silly addNamed gulp-stylus@2.1.0
+1037 verbose addNamed "2.1.0" is a plain semver version for gulp-stylus
+1038 silly mapToRegistry name gulp-stylus
+1039 silly mapToRegistry using default registry
+1040 silly mapToRegistry registry https://registry.npmjs.org/
+1041 silly mapToRegistry uri https://registry.npmjs.org/gulp-stylus
+1042 verbose addNameVersion registry:https://registry.npmjs.org/gulp-stylus not in flight; fetching
+1043 http 304 https://registry.npmjs.org/gulp-util
+1044 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+1044 verbose headers   via: '1.1 varnish',
+1044 verbose headers   'cache-control': 'max-age=60',
+1044 verbose headers   etag: '"ETJ76VP525WISUTD4LT5JAQ7R"',
+1044 verbose headers   age: '32',
+1044 verbose headers   connection: 'keep-alive',
+1044 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+1044 verbose headers   'x-cache': 'HIT',
+1044 verbose headers   'x-cache-hits': '1',
+1044 verbose headers   'x-timer': 'S1449782007.712126,VS0,VE0',
+1044 verbose headers   vary: 'Accept' }
+1045 silly get cb [ 304,
+1045 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+1045 silly get     via: '1.1 varnish',
+1045 silly get     'cache-control': 'max-age=60',
+1045 silly get     etag: '"ETJ76VP525WISUTD4LT5JAQ7R"',
+1045 silly get     age: '32',
+1045 silly get     connection: 'keep-alive',
+1045 silly get     'x-served-by': 'cache-lax1433-LAX',
+1045 silly get     'x-cache': 'HIT',
+1045 silly get     'x-cache-hits': '1',
+1045 silly get     'x-timer': 'S1449782007.712126,VS0,VE0',
+1045 silly get     vary: 'Accept' } ]
+1046 verbose etag https://registry.npmjs.org/gulp-util from cache
+1047 verbose get saving gulp-util to /home/theo/.npm/registry.npmjs.org/gulp-util/.cache.json
+1048 verbose get https://registry.npmjs.org/gulp-stylus not expired, no request
+1049 silly resolveWithNewModule gulp-util@3.0.7 checking installable status
+1050 silly cache add args [ 'gulp-util@3.0.7', null ]
+1051 verbose cache add spec gulp-util@3.0.7
+1052 silly cache add parsed spec { raw: 'gulp-util@3.0.7',
+1052 silly cache add   scope: null,
+1052 silly cache add   name: 'gulp-util',
+1052 silly cache add   rawSpec: '3.0.7',
+1052 silly cache add   spec: '3.0.7',
+1052 silly cache add   type: 'version' }
+1053 silly addNamed gulp-util@3.0.7
+1054 verbose addNamed "3.0.7" is a plain semver version for gulp-util
+1055 silly mapToRegistry name gulp-util
+1056 silly mapToRegistry using default registry
+1057 silly mapToRegistry registry https://registry.npmjs.org/
+1058 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+1059 verbose addNameVersion registry:https://registry.npmjs.org/gulp-util not in flight; fetching
+1060 silly cache afterAdd gulp-stylus@2.1.0
+1061 verbose afterAdd /home/theo/.npm/gulp-stylus/2.1.0/package/package.json not in flight; writing
+1062 verbose get https://registry.npmjs.org/gulp-util not expired, no request
+1063 verbose afterAdd /home/theo/.npm/gulp-stylus/2.1.0/package/package.json written
+1064 silly cache afterAdd gulp-util@3.0.7
+1065 verbose afterAdd /home/theo/.npm/gulp-util/3.0.7/package/package.json not in flight; writing
+1066 verbose afterAdd /home/theo/.npm/gulp-util/3.0.7/package/package.json written
+1067 http 304 https://registry.npmjs.org/jquery
+1068 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+1068 verbose headers   via: '1.1 varnish',
+1068 verbose headers   'cache-control': 'max-age=60',
+1068 verbose headers   etag: '"YRIU6FKIE0OR8PI5V5OL0TE9"',
+1068 verbose headers   age: '4',
+1068 verbose headers   connection: 'keep-alive',
+1068 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+1068 verbose headers   'x-cache': 'HIT',
+1068 verbose headers   'x-cache-hits': '1',
+1068 verbose headers   'x-timer': 'S1449782007.743351,VS0,VE0',
+1068 verbose headers   vary: 'Accept' }
+1069 silly get cb [ 304,
+1069 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+1069 silly get     via: '1.1 varnish',
+1069 silly get     'cache-control': 'max-age=60',
+1069 silly get     etag: '"YRIU6FKIE0OR8PI5V5OL0TE9"',
+1069 silly get     age: '4',
+1069 silly get     connection: 'keep-alive',
+1069 silly get     'x-served-by': 'cache-sjc3133-SJC',
+1069 silly get     'x-cache': 'HIT',
+1069 silly get     'x-cache-hits': '1',
+1069 silly get     'x-timer': 'S1449782007.743351,VS0,VE0',
+1069 silly get     vary: 'Accept' } ]
+1070 verbose etag https://registry.npmjs.org/jquery from cache
+1071 verbose get saving jquery to /home/theo/.npm/registry.npmjs.org/jquery/.cache.json
+1072 silly resolveWithNewModule jquery@2.1.4 checking installable status
+1073 silly cache add args [ 'jquery@2.1.4', null ]
+1074 verbose cache add spec jquery@2.1.4
+1075 silly cache add parsed spec { raw: 'jquery@2.1.4',
+1075 silly cache add   scope: null,
+1075 silly cache add   name: 'jquery',
+1075 silly cache add   rawSpec: '2.1.4',
+1075 silly cache add   spec: '2.1.4',
+1075 silly cache add   type: 'version' }
+1076 silly addNamed jquery@2.1.4
+1077 verbose addNamed "2.1.4" is a plain semver version for jquery
+1078 silly mapToRegistry name jquery
+1079 silly mapToRegistry using default registry
+1080 silly mapToRegistry registry https://registry.npmjs.org/
+1081 silly mapToRegistry uri https://registry.npmjs.org/jquery
+1082 verbose addNameVersion registry:https://registry.npmjs.org/jquery not in flight; fetching
+1083 verbose get https://registry.npmjs.org/jquery not expired, no request
+1084 silly cache afterAdd jquery@2.1.4
+1085 verbose afterAdd /home/theo/.npm/jquery/2.1.4/package/package.json not in flight; writing
+1086 verbose afterAdd /home/theo/.npm/jquery/2.1.4/package/package.json written
+1087 http 304 https://registry.npmjs.org/imports-loader
+1088 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+1088 verbose headers   via: '1.1 varnish',
+1088 verbose headers   'cache-control': 'max-age=60',
+1088 verbose headers   etag: '"3MF0B4MX8O9QAE40B080WCK63"',
+1088 verbose headers   age: '0',
+1088 verbose headers   connection: 'keep-alive',
+1088 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+1088 verbose headers   'x-cache': 'HIT',
+1088 verbose headers   'x-cache-hits': '1',
+1088 verbose headers   'x-timer': 'S1449782007.747070,VS0,VE49',
+1088 verbose headers   vary: 'Accept' }
+1089 silly get cb [ 304,
+1089 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+1089 silly get     via: '1.1 varnish',
+1089 silly get     'cache-control': 'max-age=60',
+1089 silly get     etag: '"3MF0B4MX8O9QAE40B080WCK63"',
+1089 silly get     age: '0',
+1089 silly get     connection: 'keep-alive',
+1089 silly get     'x-served-by': 'cache-lax1428-LAX',
+1089 silly get     'x-cache': 'HIT',
+1089 silly get     'x-cache-hits': '1',
+1089 silly get     'x-timer': 'S1449782007.747070,VS0,VE49',
+1089 silly get     vary: 'Accept' } ]
+1090 verbose etag https://registry.npmjs.org/imports-loader from cache
+1091 verbose get saving imports-loader to /home/theo/.npm/registry.npmjs.org/imports-loader/.cache.json
+1092 silly resolveWithNewModule imports-loader@0.6.5 checking installable status
+1093 silly cache add args [ 'imports-loader@0.6.5', null ]
+1094 verbose cache add spec imports-loader@0.6.5
+1095 silly cache add parsed spec { raw: 'imports-loader@0.6.5',
+1095 silly cache add   scope: null,
+1095 silly cache add   name: 'imports-loader',
+1095 silly cache add   rawSpec: '0.6.5',
+1095 silly cache add   spec: '0.6.5',
+1095 silly cache add   type: 'version' }
+1096 silly addNamed imports-loader@0.6.5
+1097 verbose addNamed "0.6.5" is a plain semver version for imports-loader
+1098 silly mapToRegistry name imports-loader
+1099 silly mapToRegistry using default registry
+1100 silly mapToRegistry registry https://registry.npmjs.org/
+1101 silly mapToRegistry uri https://registry.npmjs.org/imports-loader
+1102 verbose addNameVersion registry:https://registry.npmjs.org/imports-loader not in flight; fetching
+1103 verbose get https://registry.npmjs.org/imports-loader not expired, no request
+1104 silly cache afterAdd imports-loader@0.6.5
+1105 verbose afterAdd /home/theo/.npm/imports-loader/0.6.5/package/package.json not in flight; writing
+1106 verbose afterAdd /home/theo/.npm/imports-loader/0.6.5/package/package.json written
+1107 http 304 https://registry.npmjs.org/babel-core
+1108 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+1108 verbose headers   via: '1.1 varnish',
+1108 verbose headers   'cache-control': 'max-age=60',
+1108 verbose headers   etag: '"4YMNG7A41QC4XSE1ATZEU0F9Y"',
+1108 verbose headers   age: '0',
+1108 verbose headers   connection: 'keep-alive',
+1108 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+1108 verbose headers   'x-cache': 'HIT',
+1108 verbose headers   'x-cache-hits': '1',
+1108 verbose headers   'x-timer': 'S1449782007.918870,VS0,VE2',
+1108 verbose headers   vary: 'Accept' }
+1109 silly get cb [ 304,
+1109 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+1109 silly get     via: '1.1 varnish',
+1109 silly get     'cache-control': 'max-age=60',
+1109 silly get     etag: '"4YMNG7A41QC4XSE1ATZEU0F9Y"',
+1109 silly get     age: '0',
+1109 silly get     connection: 'keep-alive',
+1109 silly get     'x-served-by': 'cache-sjc3127-SJC',
+1109 silly get     'x-cache': 'HIT',
+1109 silly get     'x-cache-hits': '1',
+1109 silly get     'x-timer': 'S1449782007.918870,VS0,VE2',
+1109 silly get     vary: 'Accept' } ]
+1110 verbose etag https://registry.npmjs.org/babel-core from cache
+1111 verbose get saving babel-core to /home/theo/.npm/registry.npmjs.org/babel-core/.cache.json
+1112 silly resolveWithNewModule babel-core@5.8.33 checking installable status
+1113 silly cache add args [ 'babel-core@5.8.33', null ]
+1114 verbose cache add spec babel-core@5.8.33
+1115 silly cache add parsed spec { raw: 'babel-core@5.8.33',
+1115 silly cache add   scope: null,
+1115 silly cache add   name: 'babel-core',
+1115 silly cache add   rawSpec: '5.8.33',
+1115 silly cache add   spec: '5.8.33',
+1115 silly cache add   type: 'version' }
+1116 silly addNamed babel-core@5.8.33
+1117 verbose addNamed "5.8.33" is a plain semver version for babel-core
+1118 silly mapToRegistry name babel-core
+1119 silly mapToRegistry using default registry
+1120 silly mapToRegistry registry https://registry.npmjs.org/
+1121 silly mapToRegistry uri https://registry.npmjs.org/babel-core
+1122 verbose addNameVersion registry:https://registry.npmjs.org/babel-core not in flight; fetching
+1123 verbose get https://registry.npmjs.org/babel-core not expired, no request
+1124 warn deprecated babel-core@5.8.33: Babel 5 is no longer being maintained. Upgrade to Babel 6.
+1125 silly cache afterAdd babel-core@5.8.33
+1126 verbose afterAdd /home/theo/.npm/babel-core/5.8.33/package/package.json not in flight; writing
+1127 verbose afterAdd /home/theo/.npm/babel-core/5.8.33/package/package.json written
+1128 http 304 https://registry.npmjs.org/load-script
+1129 verbose headers { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+1129 verbose headers   via: '1.1 varnish',
+1129 verbose headers   'cache-control': 'max-age=60',
+1129 verbose headers   etag: '"8MCI83QQGJXEGP99GRKCNGCSB"',
+1129 verbose headers   age: '0',
+1129 verbose headers   connection: 'keep-alive',
+1129 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+1129 verbose headers   'x-cache': 'MISS',
+1129 verbose headers   'x-cache-hits': '0',
+1129 verbose headers   'x-timer': 'S1449782007.819052,VS0,VE163',
+1129 verbose headers   vary: 'Accept' }
+1130 silly get cb [ 304,
+1130 silly get   { date: 'Thu, 10 Dec 2015 21:13:27 GMT',
+1130 silly get     via: '1.1 varnish',
+1130 silly get     'cache-control': 'max-age=60',
+1130 silly get     etag: '"8MCI83QQGJXEGP99GRKCNGCSB"',
+1130 silly get     age: '0',
+1130 silly get     connection: 'keep-alive',
+1130 silly get     'x-served-by': 'cache-sjc3135-SJC',
+1130 silly get     'x-cache': 'MISS',
+1130 silly get     'x-cache-hits': '0',
+1130 silly get     'x-timer': 'S1449782007.819052,VS0,VE163',
+1130 silly get     vary: 'Accept' } ]
+1131 verbose etag https://registry.npmjs.org/load-script from cache
+1132 verbose get saving load-script to /home/theo/.npm/registry.npmjs.org/load-script/.cache.json
+1133 silly resolveWithNewModule load-script@1.0.0 checking installable status
+1134 silly cache add args [ 'load-script@1.0.0', null ]
+1135 verbose cache add spec load-script@1.0.0
+1136 silly cache add parsed spec { raw: 'load-script@1.0.0',
+1136 silly cache add   scope: null,
+1136 silly cache add   name: 'load-script',
+1136 silly cache add   rawSpec: '1.0.0',
+1136 silly cache add   spec: '1.0.0',
+1136 silly cache add   type: 'version' }
+1137 silly addNamed load-script@1.0.0
+1138 verbose addNamed "1.0.0" is a plain semver version for load-script
+1139 silly mapToRegistry name load-script
+1140 silly mapToRegistry using default registry
+1141 silly mapToRegistry registry https://registry.npmjs.org/
+1142 silly mapToRegistry uri https://registry.npmjs.org/load-script
+1143 verbose addNameVersion registry:https://registry.npmjs.org/load-script not in flight; fetching
+1144 verbose get https://registry.npmjs.org/load-script not expired, no request
+1145 silly cache afterAdd load-script@1.0.0
+1146 verbose afterAdd /home/theo/.npm/load-script/1.0.0/package/package.json not in flight; writing
+1147 verbose afterAdd /home/theo/.npm/load-script/1.0.0/package/package.json written
+1148 http 304 https://registry.npmjs.org/moment
+1149 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1149 verbose headers   via: '1.1 varnish',
+1149 verbose headers   'cache-control': 'max-age=60',
+1149 verbose headers   etag: '"1URCCJF8V701V147ECTJKSMSA"',
+1149 verbose headers   age: '13',
+1149 verbose headers   connection: 'keep-alive',
+1149 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+1149 verbose headers   'x-cache': 'HIT',
+1149 verbose headers   'x-cache-hits': '1',
+1149 verbose headers   'x-timer': 'S1449782008.012047,VS0,VE0',
+1149 verbose headers   vary: 'Accept' }
+1150 silly get cb [ 304,
+1150 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1150 silly get     via: '1.1 varnish',
+1150 silly get     'cache-control': 'max-age=60',
+1150 silly get     etag: '"1URCCJF8V701V147ECTJKSMSA"',
+1150 silly get     age: '13',
+1150 silly get     connection: 'keep-alive',
+1150 silly get     'x-served-by': 'cache-sjc3133-SJC',
+1150 silly get     'x-cache': 'HIT',
+1150 silly get     'x-cache-hits': '1',
+1150 silly get     'x-timer': 'S1449782008.012047,VS0,VE0',
+1150 silly get     vary: 'Accept' } ]
+1151 verbose etag https://registry.npmjs.org/moment from cache
+1152 verbose get saving moment to /home/theo/.npm/registry.npmjs.org/moment/.cache.json
+1153 silly resolveWithNewModule moment@2.10.6 checking installable status
+1154 silly cache add args [ 'moment@2.10.6', null ]
+1155 verbose cache add spec moment@2.10.6
+1156 silly cache add parsed spec { raw: 'moment@2.10.6',
+1156 silly cache add   scope: null,
+1156 silly cache add   name: 'moment',
+1156 silly cache add   rawSpec: '2.10.6',
+1156 silly cache add   spec: '2.10.6',
+1156 silly cache add   type: 'version' }
+1157 silly addNamed moment@2.10.6
+1158 verbose addNamed "2.10.6" is a plain semver version for moment
+1159 silly mapToRegistry name moment
+1160 silly mapToRegistry using default registry
+1161 silly mapToRegistry registry https://registry.npmjs.org/
+1162 silly mapToRegistry uri https://registry.npmjs.org/moment
+1163 verbose addNameVersion registry:https://registry.npmjs.org/moment not in flight; fetching
+1164 verbose get https://registry.npmjs.org/moment not expired, no request
+1165 silly cache afterAdd moment@2.10.6
+1166 verbose afterAdd /home/theo/.npm/moment/2.10.6/package/package.json not in flight; writing
+1167 verbose afterAdd /home/theo/.npm/moment/2.10.6/package/package.json written
+1168 http 304 https://registry.npmjs.org/marked
+1169 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1169 verbose headers   via: '1.1 varnish',
+1169 verbose headers   'cache-control': 'max-age=60',
+1169 verbose headers   etag: '"C0OAYPQC04ULP7OYL97YRQCUG"',
+1169 verbose headers   age: '0',
+1169 verbose headers   connection: 'keep-alive',
+1169 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+1169 verbose headers   'x-cache': 'HIT',
+1169 verbose headers   'x-cache-hits': '1',
+1169 verbose headers   'x-timer': 'S1449782008.005166,VS0,VE48',
+1169 verbose headers   vary: 'Accept' }
+1170 silly get cb [ 304,
+1170 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1170 silly get     via: '1.1 varnish',
+1170 silly get     'cache-control': 'max-age=60',
+1170 silly get     etag: '"C0OAYPQC04ULP7OYL97YRQCUG"',
+1170 silly get     age: '0',
+1170 silly get     connection: 'keep-alive',
+1170 silly get     'x-served-by': 'cache-lax1433-LAX',
+1170 silly get     'x-cache': 'HIT',
+1170 silly get     'x-cache-hits': '1',
+1170 silly get     'x-timer': 'S1449782008.005166,VS0,VE48',
+1170 silly get     vary: 'Accept' } ]
+1171 verbose etag https://registry.npmjs.org/marked from cache
+1172 verbose get saving marked to /home/theo/.npm/registry.npmjs.org/marked/.cache.json
+1173 silly resolveWithNewModule marked@0.3.5 checking installable status
+1174 silly cache add args [ 'marked@0.3.5', null ]
+1175 verbose cache add spec marked@0.3.5
+1176 silly cache add parsed spec { raw: 'marked@0.3.5',
+1176 silly cache add   scope: null,
+1176 silly cache add   name: 'marked',
+1176 silly cache add   rawSpec: '0.3.5',
+1176 silly cache add   spec: '0.3.5',
+1176 silly cache add   type: 'version' }
+1177 silly addNamed marked@0.3.5
+1178 verbose addNamed "0.3.5" is a plain semver version for marked
+1179 silly mapToRegistry name marked
+1180 silly mapToRegistry using default registry
+1181 silly mapToRegistry registry https://registry.npmjs.org/
+1182 silly mapToRegistry uri https://registry.npmjs.org/marked
+1183 verbose addNameVersion registry:https://registry.npmjs.org/marked not in flight; fetching
+1184 verbose get https://registry.npmjs.org/marked not expired, no request
+1185 silly cache afterAdd marked@0.3.5
+1186 verbose afterAdd /home/theo/.npm/marked/0.3.5/package/package.json not in flight; writing
+1187 verbose afterAdd /home/theo/.npm/marked/0.3.5/package/package.json written
+1188 http 304 https://registry.npmjs.org/react
+1189 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1189 verbose headers   via: '1.1 varnish',
+1189 verbose headers   'cache-control': 'max-age=60',
+1189 verbose headers   etag: '"3HXWVHKWEQ3CUOEFA5DYRXVO2"',
+1189 verbose headers   age: '24',
+1189 verbose headers   connection: 'keep-alive',
+1189 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+1189 verbose headers   'x-cache': 'HIT',
+1189 verbose headers   'x-cache-hits': '222',
+1189 verbose headers   'x-timer': 'S1449782008.131875,VS0,VE0',
+1189 verbose headers   vary: 'Accept' }
+1190 silly get cb [ 304,
+1190 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1190 silly get     via: '1.1 varnish',
+1190 silly get     'cache-control': 'max-age=60',
+1190 silly get     etag: '"3HXWVHKWEQ3CUOEFA5DYRXVO2"',
+1190 silly get     age: '24',
+1190 silly get     connection: 'keep-alive',
+1190 silly get     'x-served-by': 'cache-sjc3127-SJC',
+1190 silly get     'x-cache': 'HIT',
+1190 silly get     'x-cache-hits': '222',
+1190 silly get     'x-timer': 'S1449782008.131875,VS0,VE0',
+1190 silly get     vary: 'Accept' } ]
+1191 verbose etag https://registry.npmjs.org/react from cache
+1192 verbose get saving react to /home/theo/.npm/registry.npmjs.org/react/.cache.json
+1193 silly resolveWithNewModule react@0.14.3 checking installable status
+1194 silly cache add args [ 'react@0.14.3', null ]
+1195 verbose cache add spec react@0.14.3
+1196 silly cache add parsed spec { raw: 'react@0.14.3',
+1196 silly cache add   scope: null,
+1196 silly cache add   name: 'react',
+1196 silly cache add   rawSpec: '0.14.3',
+1196 silly cache add   spec: '0.14.3',
+1196 silly cache add   type: 'version' }
+1197 silly addNamed react@0.14.3
+1198 verbose addNamed "0.14.3" is a plain semver version for react
+1199 silly mapToRegistry name react
+1200 silly mapToRegistry using default registry
+1201 silly mapToRegistry registry https://registry.npmjs.org/
+1202 silly mapToRegistry uri https://registry.npmjs.org/react
+1203 verbose addNameVersion registry:https://registry.npmjs.org/react not in flight; fetching
+1204 http 304 https://registry.npmjs.org/react-addons-linked-state-mixin
+1205 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1205 verbose headers   via: '1.1 varnish',
+1205 verbose headers   'cache-control': 'max-age=60',
+1205 verbose headers   etag: '"AUK1AI2QN75L280V954NAEF7F"',
+1205 verbose headers   age: '0',
+1205 verbose headers   connection: 'keep-alive',
+1205 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+1205 verbose headers   'x-cache': 'HIT',
+1205 verbose headers   'x-cache-hits': '1',
+1205 verbose headers   'x-timer': 'S1449782008.132090,VS0,VE38',
+1205 verbose headers   vary: 'Accept' }
+1206 silly get cb [ 304,
+1206 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1206 silly get     via: '1.1 varnish',
+1206 silly get     'cache-control': 'max-age=60',
+1206 silly get     etag: '"AUK1AI2QN75L280V954NAEF7F"',
+1206 silly get     age: '0',
+1206 silly get     connection: 'keep-alive',
+1206 silly get     'x-served-by': 'cache-sjc3135-SJC',
+1206 silly get     'x-cache': 'HIT',
+1206 silly get     'x-cache-hits': '1',
+1206 silly get     'x-timer': 'S1449782008.132090,VS0,VE38',
+1206 silly get     vary: 'Accept' } ]
+1207 verbose etag https://registry.npmjs.org/react-addons-linked-state-mixin from cache
+1208 verbose get saving react-addons-linked-state-mixin to /home/theo/.npm/registry.npmjs.org/react-addons-linked-state-mixin/.cache.json
+1209 verbose get https://registry.npmjs.org/react not expired, no request
+1210 http 304 https://registry.npmjs.org/gulp
+1211 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1211 verbose headers   via: '1.1 varnish',
+1211 verbose headers   'cache-control': 'max-age=60',
+1211 verbose headers   etag: '"E2WZ24KMVAVUQ8DNP8K3E4SI6"',
+1211 verbose headers   age: '59',
+1211 verbose headers   connection: 'keep-alive',
+1211 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+1211 verbose headers   'x-cache': 'HIT',
+1211 verbose headers   'x-cache-hits': '3',
+1211 verbose headers   'x-timer': 'S1449782008.189774,VS0,VE0',
+1211 verbose headers   vary: 'Accept' }
+1212 silly get cb [ 304,
+1212 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1212 silly get     via: '1.1 varnish',
+1212 silly get     'cache-control': 'max-age=60',
+1212 silly get     etag: '"E2WZ24KMVAVUQ8DNP8K3E4SI6"',
+1212 silly get     age: '59',
+1212 silly get     connection: 'keep-alive',
+1212 silly get     'x-served-by': 'cache-sjc3133-SJC',
+1212 silly get     'x-cache': 'HIT',
+1212 silly get     'x-cache-hits': '3',
+1212 silly get     'x-timer': 'S1449782008.189774,VS0,VE0',
+1212 silly get     vary: 'Accept' } ]
+1213 verbose etag https://registry.npmjs.org/gulp from cache
+1214 verbose get saving gulp to /home/theo/.npm/registry.npmjs.org/gulp/.cache.json
+1215 silly cache afterAdd react@0.14.3
+1216 verbose afterAdd /home/theo/.npm/react/0.14.3/package/package.json not in flight; writing
+1217 silly resolveWithNewModule react-addons-linked-state-mixin@0.14.3 checking installable status
+1218 silly cache add args [ 'react-addons-linked-state-mixin@0.14.3', null ]
+1219 verbose cache add spec react-addons-linked-state-mixin@0.14.3
+1220 silly cache add parsed spec { raw: 'react-addons-linked-state-mixin@0.14.3',
+1220 silly cache add   scope: null,
+1220 silly cache add   name: 'react-addons-linked-state-mixin',
+1220 silly cache add   rawSpec: '0.14.3',
+1220 silly cache add   spec: '0.14.3',
+1220 silly cache add   type: 'version' }
+1221 silly addNamed react-addons-linked-state-mixin@0.14.3
+1222 verbose addNamed "0.14.3" is a plain semver version for react-addons-linked-state-mixin
+1223 silly mapToRegistry name react-addons-linked-state-mixin
+1224 silly mapToRegistry using default registry
+1225 silly mapToRegistry registry https://registry.npmjs.org/
+1226 silly mapToRegistry uri https://registry.npmjs.org/react-addons-linked-state-mixin
+1227 verbose addNameVersion registry:https://registry.npmjs.org/react-addons-linked-state-mixin not in flight; fetching
+1228 http 304 https://registry.npmjs.org/react-cookie
+1229 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1229 verbose headers   via: '1.1 varnish',
+1229 verbose headers   'cache-control': 'max-age=300',
+1229 verbose headers   etag: '"8HSWU7S52GUHJR26RUK3JZI2H"',
+1229 verbose headers   age: '256',
+1229 verbose headers   connection: 'keep-alive',
+1229 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+1229 verbose headers   'x-cache': 'HIT',
+1229 verbose headers   'x-cache-hits': '1',
+1229 verbose headers   'x-timer': 'S1449782008.205186,VS0,VE0',
+1229 verbose headers   vary: 'Accept' }
+1230 silly get cb [ 304,
+1230 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1230 silly get     via: '1.1 varnish',
+1230 silly get     'cache-control': 'max-age=300',
+1230 silly get     etag: '"8HSWU7S52GUHJR26RUK3JZI2H"',
+1230 silly get     age: '256',
+1230 silly get     connection: 'keep-alive',
+1230 silly get     'x-served-by': 'cache-sjc3127-SJC',
+1230 silly get     'x-cache': 'HIT',
+1230 silly get     'x-cache-hits': '1',
+1230 silly get     'x-timer': 'S1449782008.205186,VS0,VE0',
+1230 silly get     vary: 'Accept' } ]
+1231 verbose etag https://registry.npmjs.org/react-cookie from cache
+1232 verbose get saving react-cookie to /home/theo/.npm/registry.npmjs.org/react-cookie/.cache.json
+1233 silly resolveWithNewModule gulp@3.9.0 checking installable status
+1234 silly cache add args [ 'gulp@3.9.0', null ]
+1235 verbose cache add spec gulp@3.9.0
+1236 silly cache add parsed spec { raw: 'gulp@3.9.0',
+1236 silly cache add   scope: null,
+1236 silly cache add   name: 'gulp',
+1236 silly cache add   rawSpec: '3.9.0',
+1236 silly cache add   spec: '3.9.0',
+1236 silly cache add   type: 'version' }
+1237 silly addNamed gulp@3.9.0
+1238 verbose addNamed "3.9.0" is a plain semver version for gulp
+1239 silly mapToRegistry name gulp
+1240 silly mapToRegistry using default registry
+1241 silly mapToRegistry registry https://registry.npmjs.org/
+1242 silly mapToRegistry uri https://registry.npmjs.org/gulp
+1243 verbose addNameVersion registry:https://registry.npmjs.org/gulp not in flight; fetching
+1244 verbose afterAdd /home/theo/.npm/react/0.14.3/package/package.json written
+1245 verbose get https://registry.npmjs.org/react-addons-linked-state-mixin not expired, no request
+1246 http 304 https://registry.npmjs.org/react-burger-menu
+1247 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1247 verbose headers   via: '1.1 varnish',
+1247 verbose headers   'cache-control': 'max-age=300',
+1247 verbose headers   etag: '"48B7U00ZYB7BLU5961ZKRO9X0"',
+1247 verbose headers   age: '211',
+1247 verbose headers   connection: 'keep-alive',
+1247 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+1247 verbose headers   'x-cache': 'HIT',
+1247 verbose headers   'x-cache-hits': '1',
+1247 verbose headers   'x-timer': 'S1449782008.206522,VS0,VE0',
+1247 verbose headers   vary: 'Accept' }
+1248 silly get cb [ 304,
+1248 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1248 silly get     via: '1.1 varnish',
+1248 silly get     'cache-control': 'max-age=300',
+1248 silly get     etag: '"48B7U00ZYB7BLU5961ZKRO9X0"',
+1248 silly get     age: '211',
+1248 silly get     connection: 'keep-alive',
+1248 silly get     'x-served-by': 'cache-lax1433-LAX',
+1248 silly get     'x-cache': 'HIT',
+1248 silly get     'x-cache-hits': '1',
+1248 silly get     'x-timer': 'S1449782008.206522,VS0,VE0',
+1248 silly get     vary: 'Accept' } ]
+1249 verbose etag https://registry.npmjs.org/react-burger-menu from cache
+1250 verbose get saving react-burger-menu to /home/theo/.npm/registry.npmjs.org/react-burger-menu/.cache.json
+1251 http 304 https://registry.npmjs.org/radium
+1252 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1252 verbose headers   via: '1.1 varnish',
+1252 verbose headers   'cache-control': 'max-age=60',
+1252 verbose headers   etag: '"B1VDP6BQUWRWQ0XWKC8IHRA16"',
+1252 verbose headers   age: '0',
+1252 verbose headers   connection: 'keep-alive',
+1252 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+1252 verbose headers   'x-cache': 'HIT',
+1252 verbose headers   'x-cache-hits': '1',
+1252 verbose headers   'x-timer': 'S1449782008.129561,VS0,VE79',
+1252 verbose headers   vary: 'Accept' }
+1253 silly get cb [ 304,
+1253 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1253 silly get     via: '1.1 varnish',
+1253 silly get     'cache-control': 'max-age=60',
+1253 silly get     etag: '"B1VDP6BQUWRWQ0XWKC8IHRA16"',
+1253 silly get     age: '0',
+1253 silly get     connection: 'keep-alive',
+1253 silly get     'x-served-by': 'cache-lax1428-LAX',
+1253 silly get     'x-cache': 'HIT',
+1253 silly get     'x-cache-hits': '1',
+1253 silly get     'x-timer': 'S1449782008.129561,VS0,VE79',
+1253 silly get     vary: 'Accept' } ]
+1254 verbose etag https://registry.npmjs.org/radium from cache
+1255 verbose get saving radium to /home/theo/.npm/registry.npmjs.org/radium/.cache.json
+1256 http 304 https://registry.npmjs.org/react-doc-meta
+1257 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1257 verbose headers   via: '1.1 varnish',
+1257 verbose headers   'cache-control': 'max-age=60',
+1257 verbose headers   etag: '"BEX925W6WQUKDTVYYJCR2LCWE"',
+1257 verbose headers   age: '58',
+1257 verbose headers   connection: 'keep-alive',
+1257 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+1257 verbose headers   'x-cache': 'HIT',
+1257 verbose headers   'x-cache-hits': '1',
+1257 verbose headers   'x-timer': 'S1449782008.218712,VS0,VE0',
+1257 verbose headers   vary: 'Accept' }
+1258 silly get cb [ 304,
+1258 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1258 silly get     via: '1.1 varnish',
+1258 silly get     'cache-control': 'max-age=60',
+1258 silly get     etag: '"BEX925W6WQUKDTVYYJCR2LCWE"',
+1258 silly get     age: '58',
+1258 silly get     connection: 'keep-alive',
+1258 silly get     'x-served-by': 'cache-sjc3135-SJC',
+1258 silly get     'x-cache': 'HIT',
+1258 silly get     'x-cache-hits': '1',
+1258 silly get     'x-timer': 'S1449782008.218712,VS0,VE0',
+1258 silly get     vary: 'Accept' } ]
+1259 verbose etag https://registry.npmjs.org/react-doc-meta from cache
+1260 verbose get saving react-doc-meta to /home/theo/.npm/registry.npmjs.org/react-doc-meta/.cache.json
+1261 verbose get https://registry.npmjs.org/gulp not expired, no request
+1262 http 304 https://registry.npmjs.org/react-ga
+1263 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1263 verbose headers   via: '1.1 varnish',
+1263 verbose headers   'cache-control': 'max-age=300',
+1263 verbose headers   etag: '"9UE3V35XPZNKZYQNK0LY84B0E"',
+1263 verbose headers   age: '256',
+1263 verbose headers   connection: 'keep-alive',
+1263 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+1263 verbose headers   'x-cache': 'HIT',
+1263 verbose headers   'x-cache-hits': '1',
+1263 verbose headers   'x-timer': 'S1449782008.247613,VS0,VE0',
+1263 verbose headers   vary: 'Accept' }
+1264 silly get cb [ 304,
+1264 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1264 silly get     via: '1.1 varnish',
+1264 silly get     'cache-control': 'max-age=300',
+1264 silly get     etag: '"9UE3V35XPZNKZYQNK0LY84B0E"',
+1264 silly get     age: '256',
+1264 silly get     connection: 'keep-alive',
+1264 silly get     'x-served-by': 'cache-sjc3127-SJC',
+1264 silly get     'x-cache': 'HIT',
+1264 silly get     'x-cache-hits': '1',
+1264 silly get     'x-timer': 'S1449782008.247613,VS0,VE0',
+1264 silly get     vary: 'Accept' } ]
+1265 verbose etag https://registry.npmjs.org/react-ga from cache
+1266 verbose get saving react-ga to /home/theo/.npm/registry.npmjs.org/react-ga/.cache.json
+1267 silly resolveWithNewModule react-cookie@0.4.2 checking installable status
+1268 silly cache add args [ 'react-cookie@0.4.2', null ]
+1269 verbose cache add spec react-cookie@0.4.2
+1270 silly cache add parsed spec { raw: 'react-cookie@0.4.2',
+1270 silly cache add   scope: null,
+1270 silly cache add   name: 'react-cookie',
+1270 silly cache add   rawSpec: '0.4.2',
+1270 silly cache add   spec: '0.4.2',
+1270 silly cache add   type: 'version' }
+1271 silly addNamed react-cookie@0.4.2
+1272 verbose addNamed "0.4.2" is a plain semver version for react-cookie
+1273 silly mapToRegistry name react-cookie
+1274 silly mapToRegistry using default registry
+1275 silly mapToRegistry registry https://registry.npmjs.org/
+1276 silly mapToRegistry uri https://registry.npmjs.org/react-cookie
+1277 verbose addNameVersion registry:https://registry.npmjs.org/react-cookie not in flight; fetching
+1278 http 304 https://registry.npmjs.org/react-dom
+1279 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1279 verbose headers   via: '1.1 varnish',
+1279 verbose headers   'cache-control': 'max-age=60',
+1279 verbose headers   etag: '"6ZX2W59HQVV3X31XYZ3ZTKSTO"',
+1279 verbose headers   age: '0',
+1279 verbose headers   connection: 'keep-alive',
+1279 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+1279 verbose headers   'x-cache': 'HIT',
+1279 verbose headers   'x-cache-hits': '1',
+1279 verbose headers   'x-timer': 'S1449782008.224032,VS0,VE35',
+1279 verbose headers   vary: 'Accept' }
+1280 silly get cb [ 304,
+1280 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1280 silly get     via: '1.1 varnish',
+1280 silly get     'cache-control': 'max-age=60',
+1280 silly get     etag: '"6ZX2W59HQVV3X31XYZ3ZTKSTO"',
+1280 silly get     age: '0',
+1280 silly get     connection: 'keep-alive',
+1280 silly get     'x-served-by': 'cache-sjc3133-SJC',
+1280 silly get     'x-cache': 'HIT',
+1280 silly get     'x-cache-hits': '1',
+1280 silly get     'x-timer': 'S1449782008.224032,VS0,VE35',
+1280 silly get     vary: 'Accept' } ]
+1281 verbose etag https://registry.npmjs.org/react-dom from cache
+1282 verbose get saving react-dom to /home/theo/.npm/registry.npmjs.org/react-dom/.cache.json
+1283 silly cache afterAdd react-addons-linked-state-mixin@0.14.3
+1284 verbose afterAdd /home/theo/.npm/react-addons-linked-state-mixin/0.14.3/package/package.json not in flight; writing
+1285 http 304 https://registry.npmjs.org/react-helmet
+1286 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1286 verbose headers   via: '1.1 varnish',
+1286 verbose headers   'cache-control': 'max-age=300',
+1286 verbose headers   etag: '"92LFJU5S6OJDQHCOM0RLIHCHH"',
+1286 verbose headers   age: '255',
+1286 verbose headers   connection: 'keep-alive',
+1286 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+1286 verbose headers   'x-cache': 'HIT',
+1286 verbose headers   'x-cache-hits': '1',
+1286 verbose headers   'x-timer': 'S1449782008.266088,VS0,VE0',
+1286 verbose headers   vary: 'Accept' }
+1287 silly get cb [ 304,
+1287 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1287 silly get     via: '1.1 varnish',
+1287 silly get     'cache-control': 'max-age=300',
+1287 silly get     etag: '"92LFJU5S6OJDQHCOM0RLIHCHH"',
+1287 silly get     age: '255',
+1287 silly get     connection: 'keep-alive',
+1287 silly get     'x-served-by': 'cache-lax1433-LAX',
+1287 silly get     'x-cache': 'HIT',
+1287 silly get     'x-cache-hits': '1',
+1287 silly get     'x-timer': 'S1449782008.266088,VS0,VE0',
+1287 silly get     vary: 'Accept' } ]
+1288 verbose etag https://registry.npmjs.org/react-helmet from cache
+1289 verbose get saving react-helmet to /home/theo/.npm/registry.npmjs.org/react-helmet/.cache.json
+1290 silly resolveWithNewModule react-burger-menu@1.4.2 checking installable status
+1291 silly cache add args [ 'react-burger-menu@1.4.2', null ]
+1292 verbose cache add spec react-burger-menu@1.4.2
+1293 silly cache add parsed spec { raw: 'react-burger-menu@1.4.2',
+1293 silly cache add   scope: null,
+1293 silly cache add   name: 'react-burger-menu',
+1293 silly cache add   rawSpec: '1.4.2',
+1293 silly cache add   spec: '1.4.2',
+1293 silly cache add   type: 'version' }
+1294 silly addNamed react-burger-menu@1.4.2
+1295 verbose addNamed "1.4.2" is a plain semver version for react-burger-menu
+1296 silly mapToRegistry name react-burger-menu
+1297 silly mapToRegistry using default registry
+1298 silly mapToRegistry registry https://registry.npmjs.org/
+1299 silly mapToRegistry uri https://registry.npmjs.org/react-burger-menu
+1300 verbose addNameVersion registry:https://registry.npmjs.org/react-burger-menu not in flight; fetching
+1301 silly resolveWithNewModule radium@0.15.3 checking installable status
+1302 silly cache add args [ 'radium@0.15.3', null ]
+1303 verbose cache add spec radium@0.15.3
+1304 silly cache add parsed spec { raw: 'radium@0.15.3',
+1304 silly cache add   scope: null,
+1304 silly cache add   name: 'radium',
+1304 silly cache add   rawSpec: '0.15.3',
+1304 silly cache add   spec: '0.15.3',
+1304 silly cache add   type: 'version' }
+1305 silly addNamed radium@0.15.3
+1306 verbose addNamed "0.15.3" is a plain semver version for radium
+1307 silly mapToRegistry name radium
+1308 silly mapToRegistry using default registry
+1309 silly mapToRegistry registry https://registry.npmjs.org/
+1310 silly mapToRegistry uri https://registry.npmjs.org/radium
+1311 verbose addNameVersion registry:https://registry.npmjs.org/radium not in flight; fetching
+1312 silly resolveWithNewModule react-doc-meta@0.2.0 checking installable status
+1313 silly cache add args [ 'react-doc-meta@0.2.0', null ]
+1314 verbose cache add spec react-doc-meta@0.2.0
+1315 silly cache add parsed spec { raw: 'react-doc-meta@0.2.0',
+1315 silly cache add   scope: null,
+1315 silly cache add   name: 'react-doc-meta',
+1315 silly cache add   rawSpec: '0.2.0',
+1315 silly cache add   spec: '0.2.0',
+1315 silly cache add   type: 'version' }
+1316 silly addNamed react-doc-meta@0.2.0
+1317 verbose addNamed "0.2.0" is a plain semver version for react-doc-meta
+1318 silly mapToRegistry name react-doc-meta
+1319 silly mapToRegistry using default registry
+1320 silly mapToRegistry registry https://registry.npmjs.org/
+1321 silly mapToRegistry uri https://registry.npmjs.org/react-doc-meta
+1322 verbose addNameVersion registry:https://registry.npmjs.org/react-doc-meta not in flight; fetching
+1323 verbose get https://registry.npmjs.org/react-cookie not expired, no request
+1324 http 304 https://registry.npmjs.org/react-hot-loader
+1325 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1325 verbose headers   via: '1.1 varnish',
+1325 verbose headers   'cache-control': 'max-age=60',
+1325 verbose headers   etag: '"5R9ZKIYLFRGPP4ULB42LWA3SA"',
+1325 verbose headers   age: '58',
+1325 verbose headers   connection: 'keep-alive',
+1325 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+1325 verbose headers   'x-cache': 'HIT',
+1325 verbose headers   'x-cache-hits': '1',
+1325 verbose headers   'x-timer': 'S1449782008.282452,VS0,VE0',
+1325 verbose headers   vary: 'Accept' }
+1326 silly get cb [ 304,
+1326 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1326 silly get     via: '1.1 varnish',
+1326 silly get     'cache-control': 'max-age=60',
+1326 silly get     etag: '"5R9ZKIYLFRGPP4ULB42LWA3SA"',
+1326 silly get     age: '58',
+1326 silly get     connection: 'keep-alive',
+1326 silly get     'x-served-by': 'cache-lax1428-LAX',
+1326 silly get     'x-cache': 'HIT',
+1326 silly get     'x-cache-hits': '1',
+1326 silly get     'x-timer': 'S1449782008.282452,VS0,VE0',
+1326 silly get     vary: 'Accept' } ]
+1327 verbose etag https://registry.npmjs.org/react-hot-loader from cache
+1328 verbose get saving react-hot-loader to /home/theo/.npm/registry.npmjs.org/react-hot-loader/.cache.json
+1329 verbose afterAdd /home/theo/.npm/react-addons-linked-state-mixin/0.14.3/package/package.json written
+1330 silly cache afterAdd gulp@3.9.0
+1331 verbose afterAdd /home/theo/.npm/gulp/3.9.0/package/package.json not in flight; writing
+1332 silly resolveWithNewModule react-ga@1.2.0 checking installable status
+1333 silly cache add args [ 'react-ga@1.2.0', null ]
+1334 verbose cache add spec react-ga@1.2.0
+1335 silly cache add parsed spec { raw: 'react-ga@1.2.0',
+1335 silly cache add   scope: null,
+1335 silly cache add   name: 'react-ga',
+1335 silly cache add   rawSpec: '1.2.0',
+1335 silly cache add   spec: '1.2.0',
+1335 silly cache add   type: 'version' }
+1336 silly addNamed react-ga@1.2.0
+1337 verbose addNamed "1.2.0" is a plain semver version for react-ga
+1338 silly mapToRegistry name react-ga
+1339 silly mapToRegistry using default registry
+1340 silly mapToRegistry registry https://registry.npmjs.org/
+1341 silly mapToRegistry uri https://registry.npmjs.org/react-ga
+1342 verbose addNameVersion registry:https://registry.npmjs.org/react-ga not in flight; fetching
+1343 verbose get https://registry.npmjs.org/react-burger-menu not expired, no request
+1344 silly resolveWithNewModule react-dom@0.14.3 checking installable status
+1345 silly cache add args [ 'react-dom@0.14.3', null ]
+1346 verbose cache add spec react-dom@0.14.3
+1347 silly cache add parsed spec { raw: 'react-dom@0.14.3',
+1347 silly cache add   scope: null,
+1347 silly cache add   name: 'react-dom',
+1347 silly cache add   rawSpec: '0.14.3',
+1347 silly cache add   spec: '0.14.3',
+1347 silly cache add   type: 'version' }
+1348 silly addNamed react-dom@0.14.3
+1349 verbose addNamed "0.14.3" is a plain semver version for react-dom
+1350 silly mapToRegistry name react-dom
+1351 silly mapToRegistry using default registry
+1352 silly mapToRegistry registry https://registry.npmjs.org/
+1353 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+1354 verbose addNameVersion registry:https://registry.npmjs.org/react-dom not in flight; fetching
+1355 verbose get https://registry.npmjs.org/radium not expired, no request
+1356 verbose get https://registry.npmjs.org/react-doc-meta not expired, no request
+1357 silly resolveWithNewModule react-helmet@2.2.0 checking installable status
+1358 silly cache add args [ 'react-helmet@2.2.0', null ]
+1359 verbose cache add spec react-helmet@2.2.0
+1360 silly cache add parsed spec { raw: 'react-helmet@2.2.0',
+1360 silly cache add   scope: null,
+1360 silly cache add   name: 'react-helmet',
+1360 silly cache add   rawSpec: '2.2.0',
+1360 silly cache add   spec: '2.2.0',
+1360 silly cache add   type: 'version' }
+1361 silly addNamed react-helmet@2.2.0
+1362 verbose addNamed "2.2.0" is a plain semver version for react-helmet
+1363 silly mapToRegistry name react-helmet
+1364 silly mapToRegistry using default registry
+1365 silly mapToRegistry registry https://registry.npmjs.org/
+1366 silly mapToRegistry uri https://registry.npmjs.org/react-helmet
+1367 verbose addNameVersion registry:https://registry.npmjs.org/react-helmet not in flight; fetching
+1368 silly cache afterAdd react-cookie@0.4.2
+1369 verbose afterAdd /home/theo/.npm/react-cookie/0.4.2/package/package.json not in flight; writing
+1370 verbose afterAdd /home/theo/.npm/gulp/3.9.0/package/package.json written
+1371 verbose get https://registry.npmjs.org/react-ga not expired, no request
+1372 silly resolveWithNewModule react-hot-loader@1.3.0 checking installable status
+1373 silly cache add args [ 'react-hot-loader@1.3.0', null ]
+1374 verbose cache add spec react-hot-loader@1.3.0
+1375 silly cache add parsed spec { raw: 'react-hot-loader@1.3.0',
+1375 silly cache add   scope: null,
+1375 silly cache add   name: 'react-hot-loader',
+1375 silly cache add   rawSpec: '1.3.0',
+1375 silly cache add   spec: '1.3.0',
+1375 silly cache add   type: 'version' }
+1376 silly addNamed react-hot-loader@1.3.0
+1377 verbose addNamed "1.3.0" is a plain semver version for react-hot-loader
+1378 silly mapToRegistry name react-hot-loader
+1379 silly mapToRegistry using default registry
+1380 silly mapToRegistry registry https://registry.npmjs.org/
+1381 silly mapToRegistry uri https://registry.npmjs.org/react-hot-loader
+1382 verbose addNameVersion registry:https://registry.npmjs.org/react-hot-loader not in flight; fetching
+1383 verbose get https://registry.npmjs.org/react-dom not expired, no request
+1384 silly cache afterAdd react-burger-menu@1.4.2
+1385 verbose afterAdd /home/theo/.npm/react-burger-menu/1.4.2/package/package.json not in flight; writing
+1386 silly cache afterAdd radium@0.15.3
+1387 verbose afterAdd /home/theo/.npm/radium/0.15.3/package/package.json not in flight; writing
+1388 silly cache afterAdd react-doc-meta@0.2.0
+1389 verbose afterAdd /home/theo/.npm/react-doc-meta/0.2.0/package/package.json not in flight; writing
+1390 verbose get https://registry.npmjs.org/react-helmet not expired, no request
+1391 http 304 https://registry.npmjs.org/react-ladda
+1392 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1392 verbose headers   via: '1.1 varnish',
+1392 verbose headers   'cache-control': 'max-age=60',
+1392 verbose headers   etag: '"3TH1Q5GOJM4UUXV3L8GVZBH"',
+1392 verbose headers   age: '58',
+1392 verbose headers   connection: 'keep-alive',
+1392 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+1392 verbose headers   'x-cache': 'HIT',
+1392 verbose headers   'x-cache-hits': '1',
+1392 verbose headers   'x-timer': 'S1449782008.353022,VS0,VE0',
+1392 verbose headers   vary: 'Accept' }
+1393 silly get cb [ 304,
+1393 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1393 silly get     via: '1.1 varnish',
+1393 silly get     'cache-control': 'max-age=60',
+1393 silly get     etag: '"3TH1Q5GOJM4UUXV3L8GVZBH"',
+1393 silly get     age: '58',
+1393 silly get     connection: 'keep-alive',
+1393 silly get     'x-served-by': 'cache-sjc3135-SJC',
+1393 silly get     'x-cache': 'HIT',
+1393 silly get     'x-cache-hits': '1',
+1393 silly get     'x-timer': 'S1449782008.353022,VS0,VE0',
+1393 silly get     vary: 'Accept' } ]
+1394 verbose etag https://registry.npmjs.org/react-ladda from cache
+1395 verbose get saving react-ladda to /home/theo/.npm/registry.npmjs.org/react-ladda/.cache.json
+1396 http 304 https://registry.npmjs.org/react-portal
+1397 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1397 verbose headers   via: '1.1 varnish',
+1397 verbose headers   'cache-control': 'max-age=60',
+1397 verbose headers   etag: '"49WXPRD4EZFYC17P5CJ7IB8A7"',
+1397 verbose headers   age: '58',
+1397 verbose headers   connection: 'keep-alive',
+1397 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+1397 verbose headers   'x-cache': 'HIT',
+1397 verbose headers   'x-cache-hits': '1',
+1397 verbose headers   'x-timer': 'S1449782008.358472,VS0,VE0',
+1397 verbose headers   vary: 'Accept' }
+1398 silly get cb [ 304,
+1398 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1398 silly get     via: '1.1 varnish',
+1398 silly get     'cache-control': 'max-age=60',
+1398 silly get     etag: '"49WXPRD4EZFYC17P5CJ7IB8A7"',
+1398 silly get     age: '58',
+1398 silly get     connection: 'keep-alive',
+1398 silly get     'x-served-by': 'cache-sjc3127-SJC',
+1398 silly get     'x-cache': 'HIT',
+1398 silly get     'x-cache-hits': '1',
+1398 silly get     'x-timer': 'S1449782008.358472,VS0,VE0',
+1398 silly get     vary: 'Accept' } ]
+1399 verbose etag https://registry.npmjs.org/react-portal from cache
+1400 verbose get saving react-portal to /home/theo/.npm/registry.npmjs.org/react-portal/.cache.json
+1401 verbose afterAdd /home/theo/.npm/react-cookie/0.4.2/package/package.json written
+1402 verbose get https://registry.npmjs.org/react-hot-loader not expired, no request
+1403 silly cache afterAdd react-ga@1.2.0
+1404 verbose afterAdd /home/theo/.npm/react-ga/1.2.0/package/package.json not in flight; writing
+1405 verbose afterAdd /home/theo/.npm/react-burger-menu/1.4.2/package/package.json written
+1406 silly cache afterAdd react-dom@0.14.3
+1407 verbose afterAdd /home/theo/.npm/react-dom/0.14.3/package/package.json not in flight; writing
+1408 verbose afterAdd /home/theo/.npm/radium/0.15.3/package/package.json written
+1409 verbose afterAdd /home/theo/.npm/react-doc-meta/0.2.0/package/package.json written
+1410 silly cache afterAdd react-helmet@2.2.0
+1411 verbose afterAdd /home/theo/.npm/react-helmet/2.2.0/package/package.json not in flight; writing
+1412 verbose afterAdd /home/theo/.npm/react-ga/1.2.0/package/package.json written
+1413 silly resolveWithNewModule react-ladda@4.0.0 checking installable status
+1414 silly cache add args [ 'react-ladda@4.0.0', null ]
+1415 verbose cache add spec react-ladda@4.0.0
+1416 silly cache add parsed spec { raw: 'react-ladda@4.0.0',
+1416 silly cache add   scope: null,
+1416 silly cache add   name: 'react-ladda',
+1416 silly cache add   rawSpec: '4.0.0',
+1416 silly cache add   spec: '4.0.0',
+1416 silly cache add   type: 'version' }
+1417 silly addNamed react-ladda@4.0.0
+1418 verbose addNamed "4.0.0" is a plain semver version for react-ladda
+1419 silly mapToRegistry name react-ladda
+1420 silly mapToRegistry using default registry
+1421 silly mapToRegistry registry https://registry.npmjs.org/
+1422 silly mapToRegistry uri https://registry.npmjs.org/react-ladda
+1423 verbose addNameVersion registry:https://registry.npmjs.org/react-ladda not in flight; fetching
+1424 silly resolveWithNewModule react-portal@1.3.0 checking installable status
+1425 silly cache add args [ 'react-portal@1.3.0', null ]
+1426 verbose cache add spec react-portal@1.3.0
+1427 silly cache add parsed spec { raw: 'react-portal@1.3.0',
+1427 silly cache add   scope: null,
+1427 silly cache add   name: 'react-portal',
+1427 silly cache add   rawSpec: '1.3.0',
+1427 silly cache add   spec: '1.3.0',
+1427 silly cache add   type: 'version' }
+1428 silly addNamed react-portal@1.3.0
+1429 verbose addNamed "1.3.0" is a plain semver version for react-portal
+1430 silly mapToRegistry name react-portal
+1431 silly mapToRegistry using default registry
+1432 silly mapToRegistry registry https://registry.npmjs.org/
+1433 silly mapToRegistry uri https://registry.npmjs.org/react-portal
+1434 verbose addNameVersion registry:https://registry.npmjs.org/react-portal not in flight; fetching
+1435 silly cache afterAdd react-hot-loader@1.3.0
+1436 verbose afterAdd /home/theo/.npm/react-hot-loader/1.3.0/package/package.json not in flight; writing
+1437 verbose afterAdd /home/theo/.npm/react-dom/0.14.3/package/package.json written
+1438 verbose afterAdd /home/theo/.npm/react-helmet/2.2.0/package/package.json written
+1439 http 304 https://registry.npmjs.org/reflux-core
+1440 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1440 verbose headers   via: '1.1 varnish',
+1440 verbose headers   'cache-control': 'max-age=60',
+1440 verbose headers   etag: '"2UK46WPX8XNOTPN11UPTTA5AK"',
+1440 verbose headers   age: '58',
+1440 verbose headers   connection: 'keep-alive',
+1440 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+1440 verbose headers   'x-cache': 'HIT',
+1440 verbose headers   'x-cache-hits': '1',
+1440 verbose headers   'x-timer': 'S1449782008.432510,VS0,VE0',
+1440 verbose headers   vary: 'Accept' }
+1441 silly get cb [ 304,
+1441 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1441 silly get     via: '1.1 varnish',
+1441 silly get     'cache-control': 'max-age=60',
+1441 silly get     etag: '"2UK46WPX8XNOTPN11UPTTA5AK"',
+1441 silly get     age: '58',
+1441 silly get     connection: 'keep-alive',
+1441 silly get     'x-served-by': 'cache-sjc3127-SJC',
+1441 silly get     'x-cache': 'HIT',
+1441 silly get     'x-cache-hits': '1',
+1441 silly get     'x-timer': 'S1449782008.432510,VS0,VE0',
+1441 silly get     vary: 'Accept' } ]
+1442 verbose etag https://registry.npmjs.org/reflux-core from cache
+1443 verbose get saving reflux-core to /home/theo/.npm/registry.npmjs.org/reflux-core/.cache.json
+1444 verbose get https://registry.npmjs.org/react-ladda not expired, no request
+1445 verbose get https://registry.npmjs.org/react-portal not expired, no request
+1446 verbose afterAdd /home/theo/.npm/react-hot-loader/1.3.0/package/package.json written
+1447 http 304 https://registry.npmjs.org/history
+1448 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1448 verbose headers   via: '1.1 varnish',
+1448 verbose headers   'cache-control': 'max-age=60',
+1448 verbose headers   etag: '"2IXX2BCZK8LZGK8FG9YP3I2UG"',
+1448 verbose headers   age: '0',
+1448 verbose headers   connection: 'keep-alive',
+1448 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+1448 verbose headers   'x-cache': 'HIT',
+1448 verbose headers   'x-cache-hits': '1',
+1448 verbose headers   'x-timer': 'S1449782008.426508,VS0,VE48',
+1448 verbose headers   vary: 'Accept' }
+1449 silly get cb [ 304,
+1449 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1449 silly get     via: '1.1 varnish',
+1449 silly get     'cache-control': 'max-age=60',
+1449 silly get     etag: '"2IXX2BCZK8LZGK8FG9YP3I2UG"',
+1449 silly get     age: '0',
+1449 silly get     connection: 'keep-alive',
+1449 silly get     'x-served-by': 'cache-lax1433-LAX',
+1449 silly get     'x-cache': 'HIT',
+1449 silly get     'x-cache-hits': '1',
+1449 silly get     'x-timer': 'S1449782008.426508,VS0,VE48',
+1449 silly get     vary: 'Accept' } ]
+1450 verbose etag https://registry.npmjs.org/history from cache
+1451 verbose get saving history to /home/theo/.npm/registry.npmjs.org/history/.cache.json
+1452 http 304 https://registry.npmjs.org/react-textarea-autosize
+1453 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1453 verbose headers   via: '1.1 varnish',
+1453 verbose headers   'cache-control': 'max-age=60',
+1453 verbose headers   etag: '"BPUM994GYKX6RZ08AD3VVIIWP"',
+1453 verbose headers   age: '0',
+1453 verbose headers   connection: 'keep-alive',
+1453 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+1453 verbose headers   'x-cache': 'HIT',
+1453 verbose headers   'x-cache-hits': '1',
+1453 verbose headers   'x-timer': 'S1449782008.440452,VS0,VE52',
+1453 verbose headers   vary: 'Accept' }
+1454 silly get cb [ 304,
+1454 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1454 silly get     via: '1.1 varnish',
+1454 silly get     'cache-control': 'max-age=60',
+1454 silly get     etag: '"BPUM994GYKX6RZ08AD3VVIIWP"',
+1454 silly get     age: '0',
+1454 silly get     connection: 'keep-alive',
+1454 silly get     'x-served-by': 'cache-lax1428-LAX',
+1454 silly get     'x-cache': 'HIT',
+1454 silly get     'x-cache-hits': '1',
+1454 silly get     'x-timer': 'S1449782008.440452,VS0,VE52',
+1454 silly get     vary: 'Accept' } ]
+1455 verbose etag https://registry.npmjs.org/react-textarea-autosize from cache
+1456 verbose get saving react-textarea-autosize to /home/theo/.npm/registry.npmjs.org/react-textarea-autosize/.cache.json
+1457 silly cache afterAdd react-ladda@4.0.0
+1458 verbose afterAdd /home/theo/.npm/react-ladda/4.0.0/package/package.json not in flight; writing
+1459 silly cache afterAdd react-portal@1.3.0
+1460 verbose afterAdd /home/theo/.npm/react-portal/1.3.0/package/package.json not in flight; writing
+1461 silly resolveWithNewModule reflux-core@0.3.0 checking installable status
+1462 silly cache add args [ 'reflux-core@0.3.0', null ]
+1463 verbose cache add spec reflux-core@0.3.0
+1464 silly cache add parsed spec { raw: 'reflux-core@0.3.0',
+1464 silly cache add   scope: null,
+1464 silly cache add   name: 'reflux-core',
+1464 silly cache add   rawSpec: '0.3.0',
+1464 silly cache add   spec: '0.3.0',
+1464 silly cache add   type: 'version' }
+1465 silly addNamed reflux-core@0.3.0
+1466 verbose addNamed "0.3.0" is a plain semver version for reflux-core
+1467 silly mapToRegistry name reflux-core
+1468 silly mapToRegistry using default registry
+1469 silly mapToRegistry registry https://registry.npmjs.org/
+1470 silly mapToRegistry uri https://registry.npmjs.org/reflux-core
+1471 verbose addNameVersion registry:https://registry.npmjs.org/reflux-core not in flight; fetching
+1472 http 304 https://registry.npmjs.org/reflux-promise
+1473 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1473 verbose headers   via: '1.1 varnish',
+1473 verbose headers   'cache-control': 'max-age=300',
+1473 verbose headers   etag: '"6BF1TVOXF0Q6R3LRA4PL9LXGA"',
+1473 verbose headers   age: '58',
+1473 verbose headers   connection: 'keep-alive',
+1473 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+1473 verbose headers   'x-cache': 'HIT',
+1473 verbose headers   'x-cache-hits': '1',
+1473 verbose headers   'x-timer': 'S1449782008.515377,VS0,VE0',
+1473 verbose headers   vary: 'Accept' }
+1474 silly get cb [ 304,
+1474 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1474 silly get     via: '1.1 varnish',
+1474 silly get     'cache-control': 'max-age=300',
+1474 silly get     etag: '"6BF1TVOXF0Q6R3LRA4PL9LXGA"',
+1474 silly get     age: '58',
+1474 silly get     connection: 'keep-alive',
+1474 silly get     'x-served-by': 'cache-sjc3127-SJC',
+1474 silly get     'x-cache': 'HIT',
+1474 silly get     'x-cache-hits': '1',
+1474 silly get     'x-timer': 'S1449782008.515377,VS0,VE0',
+1474 silly get     vary: 'Accept' } ]
+1475 verbose etag https://registry.npmjs.org/reflux-promise from cache
+1476 verbose get saving reflux-promise to /home/theo/.npm/registry.npmjs.org/reflux-promise/.cache.json
+1477 http 304 https://registry.npmjs.org/run-sequence
+1478 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1478 verbose headers   via: '1.1 varnish',
+1478 verbose headers   'cache-control': 'max-age=60',
+1478 verbose headers   etag: '"6W9GVPA2ANQC5VKNXLQ80Z4HD"',
+1478 verbose headers   age: '45',
+1478 verbose headers   connection: 'keep-alive',
+1478 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+1478 verbose headers   'x-cache': 'HIT',
+1478 verbose headers   'x-cache-hits': '1',
+1478 verbose headers   'x-timer': 'S1449782008.538150,VS0,VE0',
+1478 verbose headers   vary: 'Accept' }
+1479 silly get cb [ 304,
+1479 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1479 silly get     via: '1.1 varnish',
+1479 silly get     'cache-control': 'max-age=60',
+1479 silly get     etag: '"6W9GVPA2ANQC5VKNXLQ80Z4HD"',
+1479 silly get     age: '45',
+1479 silly get     connection: 'keep-alive',
+1479 silly get     'x-served-by': 'cache-lax1433-LAX',
+1479 silly get     'x-cache': 'HIT',
+1479 silly get     'x-cache-hits': '1',
+1479 silly get     'x-timer': 'S1449782008.538150,VS0,VE0',
+1479 silly get     vary: 'Accept' } ]
+1480 verbose etag https://registry.npmjs.org/run-sequence from cache
+1481 verbose get saving run-sequence to /home/theo/.npm/registry.npmjs.org/run-sequence/.cache.json
+1482 verbose afterAdd /home/theo/.npm/react-ladda/4.0.0/package/package.json written
+1483 verbose afterAdd /home/theo/.npm/react-portal/1.3.0/package/package.json written
+1484 silly resolveWithNewModule history@1.13.1 checking installable status
+1485 silly cache add args [ 'history@1.13.1', null ]
+1486 verbose cache add spec history@1.13.1
+1487 silly cache add parsed spec { raw: 'history@1.13.1',
+1487 silly cache add   scope: null,
+1487 silly cache add   name: 'history',
+1487 silly cache add   rawSpec: '1.13.1',
+1487 silly cache add   spec: '1.13.1',
+1487 silly cache add   type: 'version' }
+1488 silly addNamed history@1.13.1
+1489 verbose addNamed "1.13.1" is a plain semver version for history
+1490 silly mapToRegistry name history
+1491 silly mapToRegistry using default registry
+1492 silly mapToRegistry registry https://registry.npmjs.org/
+1493 silly mapToRegistry uri https://registry.npmjs.org/history
+1494 verbose addNameVersion registry:https://registry.npmjs.org/history not in flight; fetching
+1495 verbose get https://registry.npmjs.org/reflux-core not expired, no request
+1496 http 304 https://registry.npmjs.org/style-loader
+1497 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1497 verbose headers   via: '1.1 varnish',
+1497 verbose headers   'cache-control': 'max-age=60',
+1497 verbose headers   etag: '"5VLG799WX3C6BF00PFT26FZ7L"',
+1497 verbose headers   age: '33',
+1497 verbose headers   connection: 'keep-alive',
+1497 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+1497 verbose headers   'x-cache': 'HIT',
+1497 verbose headers   'x-cache-hits': '1',
+1497 verbose headers   'x-timer': 'S1449782008.560055,VS0,VE0',
+1497 verbose headers   vary: 'Accept' }
+1498 silly get cb [ 304,
+1498 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1498 silly get     via: '1.1 varnish',
+1498 silly get     'cache-control': 'max-age=60',
+1498 silly get     etag: '"5VLG799WX3C6BF00PFT26FZ7L"',
+1498 silly get     age: '33',
+1498 silly get     connection: 'keep-alive',
+1498 silly get     'x-served-by': 'cache-lax1428-LAX',
+1498 silly get     'x-cache': 'HIT',
+1498 silly get     'x-cache-hits': '1',
+1498 silly get     'x-timer': 'S1449782008.560055,VS0,VE0',
+1498 silly get     vary: 'Accept' } ]
+1499 verbose etag https://registry.npmjs.org/style-loader from cache
+1500 verbose get saving style-loader to /home/theo/.npm/registry.npmjs.org/style-loader/.cache.json
+1501 silly resolveWithNewModule react-textarea-autosize@3.1.0 checking installable status
+1502 silly cache add args [ 'react-textarea-autosize@3.1.0', null ]
+1503 verbose cache add spec react-textarea-autosize@3.1.0
+1504 silly cache add parsed spec { raw: 'react-textarea-autosize@3.1.0',
+1504 silly cache add   scope: null,
+1504 silly cache add   name: 'react-textarea-autosize',
+1504 silly cache add   rawSpec: '3.1.0',
+1504 silly cache add   spec: '3.1.0',
+1504 silly cache add   type: 'version' }
+1505 silly addNamed react-textarea-autosize@3.1.0
+1506 verbose addNamed "3.1.0" is a plain semver version for react-textarea-autosize
+1507 silly mapToRegistry name react-textarea-autosize
+1508 silly mapToRegistry using default registry
+1509 silly mapToRegistry registry https://registry.npmjs.org/
+1510 silly mapToRegistry uri https://registry.npmjs.org/react-textarea-autosize
+1511 verbose addNameVersion registry:https://registry.npmjs.org/react-textarea-autosize not in flight; fetching
+1512 silly resolveWithNewModule reflux-promise@1.0.2 checking installable status
+1513 silly cache add args [ 'reflux-promise@1.0.2', null ]
+1514 verbose cache add spec reflux-promise@1.0.2
+1515 silly cache add parsed spec { raw: 'reflux-promise@1.0.2',
+1515 silly cache add   scope: null,
+1515 silly cache add   name: 'reflux-promise',
+1515 silly cache add   rawSpec: '1.0.2',
+1515 silly cache add   spec: '1.0.2',
+1515 silly cache add   type: 'version' }
+1516 silly addNamed reflux-promise@1.0.2
+1517 verbose addNamed "1.0.2" is a plain semver version for reflux-promise
+1518 silly mapToRegistry name reflux-promise
+1519 silly mapToRegistry using default registry
+1520 silly mapToRegistry registry https://registry.npmjs.org/
+1521 silly mapToRegistry uri https://registry.npmjs.org/reflux-promise
+1522 verbose addNameVersion registry:https://registry.npmjs.org/reflux-promise not in flight; fetching
+1523 verbose get https://registry.npmjs.org/history not expired, no request
+1524 silly resolveWithNewModule run-sequence@1.1.5 checking installable status
+1525 silly cache add args [ 'run-sequence@1.1.5', null ]
+1526 verbose cache add spec run-sequence@1.1.5
+1527 silly cache add parsed spec { raw: 'run-sequence@1.1.5',
+1527 silly cache add   scope: null,
+1527 silly cache add   name: 'run-sequence',
+1527 silly cache add   rawSpec: '1.1.5',
+1527 silly cache add   spec: '1.1.5',
+1527 silly cache add   type: 'version' }
+1528 silly addNamed run-sequence@1.1.5
+1529 verbose addNamed "1.1.5" is a plain semver version for run-sequence
+1530 silly mapToRegistry name run-sequence
+1531 silly mapToRegistry using default registry
+1532 silly mapToRegistry registry https://registry.npmjs.org/
+1533 silly mapToRegistry uri https://registry.npmjs.org/run-sequence
+1534 verbose addNameVersion registry:https://registry.npmjs.org/run-sequence not in flight; fetching
+1535 silly cache afterAdd reflux-core@0.3.0
+1536 verbose afterAdd /home/theo/.npm/reflux-core/0.3.0/package/package.json not in flight; writing
+1537 verbose get https://registry.npmjs.org/react-textarea-autosize not expired, no request
+1538 verbose get https://registry.npmjs.org/reflux-promise not expired, no request
+1539 silly resolveWithNewModule style-loader@0.13.0 checking installable status
+1540 silly cache add args [ 'style-loader@0.13.0', null ]
+1541 verbose cache add spec style-loader@0.13.0
+1542 silly cache add parsed spec { raw: 'style-loader@0.13.0',
+1542 silly cache add   scope: null,
+1542 silly cache add   name: 'style-loader',
+1542 silly cache add   rawSpec: '0.13.0',
+1542 silly cache add   spec: '0.13.0',
+1542 silly cache add   type: 'version' }
+1543 silly addNamed style-loader@0.13.0
+1544 verbose addNamed "0.13.0" is a plain semver version for style-loader
+1545 silly mapToRegistry name style-loader
+1546 silly mapToRegistry using default registry
+1547 silly mapToRegistry registry https://registry.npmjs.org/
+1548 silly mapToRegistry uri https://registry.npmjs.org/style-loader
+1549 verbose addNameVersion registry:https://registry.npmjs.org/style-loader not in flight; fetching
+1550 http 304 https://registry.npmjs.org/url-loader
+1551 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1551 verbose headers   via: '1.1 varnish',
+1551 verbose headers   'cache-control': 'max-age=60',
+1551 verbose headers   etag: '"6G23Y3FKTDPWN8TAF4UEYCZ9P"',
+1551 verbose headers   age: '58',
+1551 verbose headers   connection: 'keep-alive',
+1551 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+1551 verbose headers   'x-cache': 'HIT',
+1551 verbose headers   'x-cache-hits': '1',
+1551 verbose headers   'x-timer': 'S1449782008.614143,VS0,VE0',
+1551 verbose headers   vary: 'Accept' }
+1552 silly get cb [ 304,
+1552 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1552 silly get     via: '1.1 varnish',
+1552 silly get     'cache-control': 'max-age=60',
+1552 silly get     etag: '"6G23Y3FKTDPWN8TAF4UEYCZ9P"',
+1552 silly get     age: '58',
+1552 silly get     connection: 'keep-alive',
+1552 silly get     'x-served-by': 'cache-sjc3127-SJC',
+1552 silly get     'x-cache': 'HIT',
+1552 silly get     'x-cache-hits': '1',
+1552 silly get     'x-timer': 'S1449782008.614143,VS0,VE0',
+1552 silly get     vary: 'Accept' } ]
+1553 verbose etag https://registry.npmjs.org/url-loader from cache
+1554 verbose get saving url-loader to /home/theo/.npm/registry.npmjs.org/url-loader/.cache.json
+1555 verbose get https://registry.npmjs.org/run-sequence not expired, no request
+1556 http 304 https://registry.npmjs.org/lodash
+1557 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1557 verbose headers   via: '1.1 varnish',
+1557 verbose headers   'cache-control': 'max-age=60',
+1557 verbose headers   etag: '"5L5T1I2RTIR09BXLU46EGUFSN"',
+1557 verbose headers   age: '29',
+1557 verbose headers   connection: 'keep-alive',
+1557 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+1557 verbose headers   'x-cache': 'HIT',
+1557 verbose headers   'x-cache-hits': '7',
+1557 verbose headers   'x-timer': 'S1449782008.619926,VS0,VE0',
+1557 verbose headers   vary: 'Accept' }
+1558 silly get cb [ 304,
+1558 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1558 silly get     via: '1.1 varnish',
+1558 silly get     'cache-control': 'max-age=60',
+1558 silly get     etag: '"5L5T1I2RTIR09BXLU46EGUFSN"',
+1558 silly get     age: '29',
+1558 silly get     connection: 'keep-alive',
+1558 silly get     'x-served-by': 'cache-lax1433-LAX',
+1558 silly get     'x-cache': 'HIT',
+1558 silly get     'x-cache-hits': '7',
+1558 silly get     'x-timer': 'S1449782008.619926,VS0,VE0',
+1558 silly get     vary: 'Accept' } ]
+1559 verbose etag https://registry.npmjs.org/lodash from cache
+1560 verbose get saving lodash to /home/theo/.npm/registry.npmjs.org/lodash/.cache.json
+1561 silly cache afterAdd history@1.13.1
+1562 verbose afterAdd /home/theo/.npm/history/1.13.1/package/package.json not in flight; writing
+1563 verbose afterAdd /home/theo/.npm/reflux-core/0.3.0/package/package.json written
+1564 silly cache afterAdd react-textarea-autosize@3.1.0
+1565 verbose afterAdd /home/theo/.npm/react-textarea-autosize/3.1.0/package/package.json not in flight; writing
+1566 http 304 https://registry.npmjs.org/webpack-dev-server
+1567 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1567 verbose headers   via: '1.1 varnish',
+1567 verbose headers   'cache-control': 'max-age=60',
+1567 verbose headers   etag: '"E3XJ6OCVG4RMGM9L344GAXOA9"',
+1567 verbose headers   age: '14',
+1567 verbose headers   connection: 'keep-alive',
+1567 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+1567 verbose headers   'x-cache': 'HIT',
+1567 verbose headers   'x-cache-hits': '1',
+1567 verbose headers   'x-timer': 'S1449782008.621299,VS0,VE0',
+1567 verbose headers   vary: 'Accept' }
+1568 silly get cb [ 304,
+1568 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1568 silly get     via: '1.1 varnish',
+1568 silly get     'cache-control': 'max-age=60',
+1568 silly get     etag: '"E3XJ6OCVG4RMGM9L344GAXOA9"',
+1568 silly get     age: '14',
+1568 silly get     connection: 'keep-alive',
+1568 silly get     'x-served-by': 'cache-lax1428-LAX',
+1568 silly get     'x-cache': 'HIT',
+1568 silly get     'x-cache-hits': '1',
+1568 silly get     'x-timer': 'S1449782008.621299,VS0,VE0',
+1568 silly get     vary: 'Accept' } ]
+1569 verbose etag https://registry.npmjs.org/webpack-dev-server from cache
+1570 verbose get saving webpack-dev-server to /home/theo/.npm/registry.npmjs.org/webpack-dev-server/.cache.json
+1571 verbose get https://registry.npmjs.org/style-loader not expired, no request
+1572 silly cache afterAdd reflux-promise@1.0.2
+1573 verbose afterAdd /home/theo/.npm/reflux-promise/1.0.2/package/package.json not in flight; writing
+1574 verbose afterAdd /home/theo/.npm/history/1.13.1/package/package.json written
+1575 silly cache afterAdd run-sequence@1.1.5
+1576 verbose afterAdd /home/theo/.npm/run-sequence/1.1.5/package/package.json not in flight; writing
+1577 verbose afterAdd /home/theo/.npm/react-textarea-autosize/3.1.0/package/package.json written
+1578 silly resolveWithNewModule url-loader@0.5.6 checking installable status
+1579 silly cache add args [ 'url-loader@0.5.6', null ]
+1580 verbose cache add spec url-loader@0.5.6
+1581 silly cache add parsed spec { raw: 'url-loader@0.5.6',
+1581 silly cache add   scope: null,
+1581 silly cache add   name: 'url-loader',
+1581 silly cache add   rawSpec: '0.5.6',
+1581 silly cache add   spec: '0.5.6',
+1581 silly cache add   type: 'version' }
+1582 silly addNamed url-loader@0.5.6
+1583 verbose addNamed "0.5.6" is a plain semver version for url-loader
+1584 silly mapToRegistry name url-loader
+1585 silly mapToRegistry using default registry
+1586 silly mapToRegistry registry https://registry.npmjs.org/
+1587 silly mapToRegistry uri https://registry.npmjs.org/url-loader
+1588 verbose addNameVersion registry:https://registry.npmjs.org/url-loader not in flight; fetching
+1589 silly resolveWithNewModule lodash@3.10.1 checking installable status
+1590 silly cache add args [ 'lodash@3.10.1', null ]
+1591 verbose cache add spec lodash@3.10.1
+1592 silly cache add parsed spec { raw: 'lodash@3.10.1',
+1592 silly cache add   scope: null,
+1592 silly cache add   name: 'lodash',
+1592 silly cache add   rawSpec: '3.10.1',
+1592 silly cache add   spec: '3.10.1',
+1592 silly cache add   type: 'version' }
+1593 silly addNamed lodash@3.10.1
+1594 verbose addNamed "3.10.1" is a plain semver version for lodash
+1595 silly mapToRegistry name lodash
+1596 silly mapToRegistry using default registry
+1597 silly mapToRegistry registry https://registry.npmjs.org/
+1598 silly mapToRegistry uri https://registry.npmjs.org/lodash
+1599 verbose addNameVersion registry:https://registry.npmjs.org/lodash not in flight; fetching
+1600 verbose afterAdd /home/theo/.npm/reflux-promise/1.0.2/package/package.json written
+1601 silly cache afterAdd style-loader@0.13.0
+1602 verbose afterAdd /home/theo/.npm/style-loader/0.13.0/package/package.json not in flight; writing
+1603 silly resolveWithNewModule webpack-dev-server@1.12.1 checking installable status
+1604 silly cache add args [ 'webpack-dev-server@1.12.1', null ]
+1605 verbose cache add spec webpack-dev-server@1.12.1
+1606 silly cache add parsed spec { raw: 'webpack-dev-server@1.12.1',
+1606 silly cache add   scope: null,
+1606 silly cache add   name: 'webpack-dev-server',
+1606 silly cache add   rawSpec: '1.12.1',
+1606 silly cache add   spec: '1.12.1',
+1606 silly cache add   type: 'version' }
+1607 silly addNamed webpack-dev-server@1.12.1
+1608 verbose addNamed "1.12.1" is a plain semver version for webpack-dev-server
+1609 silly mapToRegistry name webpack-dev-server
+1610 silly mapToRegistry using default registry
+1611 silly mapToRegistry registry https://registry.npmjs.org/
+1612 silly mapToRegistry uri https://registry.npmjs.org/webpack-dev-server
+1613 verbose addNameVersion registry:https://registry.npmjs.org/webpack-dev-server not in flight; fetching
+1614 http 304 https://registry.npmjs.org/when
+1615 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1615 verbose headers   via: '1.1 varnish',
+1615 verbose headers   'cache-control': 'max-age=60',
+1615 verbose headers   etag: '"9LBPX8Z4RCSP7TE5F6P20MO7L"',
+1615 verbose headers   age: '31',
+1615 verbose headers   connection: 'keep-alive',
+1615 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+1615 verbose headers   'x-cache': 'HIT',
+1615 verbose headers   'x-cache-hits': '1',
+1615 verbose headers   'x-timer': 'S1449782008.676718,VS0,VE0',
+1615 verbose headers   vary: 'Accept' }
+1616 silly get cb [ 304,
+1616 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1616 silly get     via: '1.1 varnish',
+1616 silly get     'cache-control': 'max-age=60',
+1616 silly get     etag: '"9LBPX8Z4RCSP7TE5F6P20MO7L"',
+1616 silly get     age: '31',
+1616 silly get     connection: 'keep-alive',
+1616 silly get     'x-served-by': 'cache-lax1433-LAX',
+1616 silly get     'x-cache': 'HIT',
+1616 silly get     'x-cache-hits': '1',
+1616 silly get     'x-timer': 'S1449782008.676718,VS0,VE0',
+1616 silly get     vary: 'Accept' } ]
+1617 verbose etag https://registry.npmjs.org/when from cache
+1618 verbose get saving when to /home/theo/.npm/registry.npmjs.org/when/.cache.json
+1619 verbose afterAdd /home/theo/.npm/run-sequence/1.1.5/package/package.json written
+1620 verbose get https://registry.npmjs.org/url-loader not expired, no request
+1621 verbose get https://registry.npmjs.org/lodash not expired, no request
+1622 verbose afterAdd /home/theo/.npm/style-loader/0.13.0/package/package.json written
+1623 http 304 https://registry.npmjs.org/webpack-stream
+1624 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1624 verbose headers   via: '1.1 varnish',
+1624 verbose headers   'cache-control': 'max-age=300',
+1624 verbose headers   etag: '"BEI8FU9MCT92PTVTHHYDBW2U0"',
+1624 verbose headers   age: '0',
+1624 verbose headers   connection: 'keep-alive',
+1624 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+1624 verbose headers   'x-cache': 'HIT',
+1624 verbose headers   'x-cache-hits': '1',
+1624 verbose headers   'x-timer': 'S1449782008.670843,VS0,VE38',
+1624 verbose headers   vary: 'Accept' }
+1625 silly get cb [ 304,
+1625 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1625 silly get     via: '1.1 varnish',
+1625 silly get     'cache-control': 'max-age=300',
+1625 silly get     etag: '"BEI8FU9MCT92PTVTHHYDBW2U0"',
+1625 silly get     age: '0',
+1625 silly get     connection: 'keep-alive',
+1625 silly get     'x-served-by': 'cache-sjc3127-SJC',
+1625 silly get     'x-cache': 'HIT',
+1625 silly get     'x-cache-hits': '1',
+1625 silly get     'x-timer': 'S1449782008.670843,VS0,VE38',
+1625 silly get     vary: 'Accept' } ]
+1626 verbose etag https://registry.npmjs.org/webpack-stream from cache
+1627 verbose get saving webpack-stream to /home/theo/.npm/registry.npmjs.org/webpack-stream/.cache.json
+1628 verbose get https://registry.npmjs.org/webpack-dev-server not expired, no request
+1629 silly cache afterAdd url-loader@0.5.6
+1630 verbose afterAdd /home/theo/.npm/url-loader/0.5.6/package/package.json not in flight; writing
+1631 silly resolveWithNewModule when@3.7.5 checking installable status
+1632 silly cache add args [ 'when@3.7.5', null ]
+1633 verbose cache add spec when@3.7.5
+1634 silly cache add parsed spec { raw: 'when@3.7.5',
+1634 silly cache add   scope: null,
+1634 silly cache add   name: 'when',
+1634 silly cache add   rawSpec: '3.7.5',
+1634 silly cache add   spec: '3.7.5',
+1634 silly cache add   type: 'version' }
+1635 silly addNamed when@3.7.5
+1636 verbose addNamed "3.7.5" is a plain semver version for when
+1637 silly mapToRegistry name when
+1638 silly mapToRegistry using default registry
+1639 silly mapToRegistry registry https://registry.npmjs.org/
+1640 silly mapToRegistry uri https://registry.npmjs.org/when
+1641 verbose addNameVersion registry:https://registry.npmjs.org/when not in flight; fetching
+1642 silly cache afterAdd lodash@3.10.1
+1643 verbose afterAdd /home/theo/.npm/lodash/3.10.1/package/package.json not in flight; writing
+1644 silly cache afterAdd webpack-dev-server@1.12.1
+1645 verbose afterAdd /home/theo/.npm/webpack-dev-server/1.12.1/package/package.json not in flight; writing
+1646 silly resolveWithNewModule webpack-stream@2.1.1 checking installable status
+1647 silly cache add args [ 'webpack-stream@2.1.1', null ]
+1648 verbose cache add spec webpack-stream@2.1.1
+1649 silly cache add parsed spec { raw: 'webpack-stream@2.1.1',
+1649 silly cache add   scope: null,
+1649 silly cache add   name: 'webpack-stream',
+1649 silly cache add   rawSpec: '2.1.1',
+1649 silly cache add   spec: '2.1.1',
+1649 silly cache add   type: 'version' }
+1650 silly addNamed webpack-stream@2.1.1
+1651 verbose addNamed "2.1.1" is a plain semver version for webpack-stream
+1652 silly mapToRegistry name webpack-stream
+1653 silly mapToRegistry using default registry
+1654 silly mapToRegistry registry https://registry.npmjs.org/
+1655 silly mapToRegistry uri https://registry.npmjs.org/webpack-stream
+1656 verbose addNameVersion registry:https://registry.npmjs.org/webpack-stream not in flight; fetching
+1657 verbose afterAdd /home/theo/.npm/url-loader/0.5.6/package/package.json written
+1658 verbose get https://registry.npmjs.org/when not expired, no request
+1659 verbose afterAdd /home/theo/.npm/lodash/3.10.1/package/package.json written
+1660 verbose afterAdd /home/theo/.npm/webpack-dev-server/1.12.1/package/package.json written
+1661 http 304 https://registry.npmjs.org/react-router
+1662 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1662 verbose headers   via: '1.1 varnish',
+1662 verbose headers   'cache-control': 'max-age=60',
+1662 verbose headers   etag: '"9Q7YU940F65EB9YO52152WDR6"',
+1662 verbose headers   age: '0',
+1662 verbose headers   connection: 'keep-alive',
+1662 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+1662 verbose headers   'x-cache': 'HIT',
+1662 verbose headers   'x-cache-hits': '1',
+1662 verbose headers   'x-timer': 'S1449782008.405707,VS0,VE341',
+1662 verbose headers   vary: 'Accept' }
+1663 silly get cb [ 304,
+1663 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1663 silly get     via: '1.1 varnish',
+1663 silly get     'cache-control': 'max-age=60',
+1663 silly get     etag: '"9Q7YU940F65EB9YO52152WDR6"',
+1663 silly get     age: '0',
+1663 silly get     connection: 'keep-alive',
+1663 silly get     'x-served-by': 'cache-sjc3133-SJC',
+1663 silly get     'x-cache': 'HIT',
+1663 silly get     'x-cache-hits': '1',
+1663 silly get     'x-timer': 'S1449782008.405707,VS0,VE341',
+1663 silly get     vary: 'Accept' } ]
+1664 verbose etag https://registry.npmjs.org/react-router from cache
+1665 verbose get saving react-router to /home/theo/.npm/registry.npmjs.org/react-router/.cache.json
+1666 verbose get https://registry.npmjs.org/webpack-stream not expired, no request
+1667 silly cache afterAdd when@3.7.5
+1668 verbose afterAdd /home/theo/.npm/when/3.7.5/package/package.json not in flight; writing
+1669 silly cache afterAdd webpack-stream@2.1.1
+1670 verbose afterAdd /home/theo/.npm/webpack-stream/2.1.1/package/package.json not in flight; writing
+1671 verbose afterAdd /home/theo/.npm/when/3.7.5/package/package.json written
+1672 silly resolveWithNewModule react-router@1.0.0 checking installable status
+1673 silly cache add args [ 'react-router@1.0.0', null ]
+1674 verbose cache add spec react-router@1.0.0
+1675 silly cache add parsed spec { raw: 'react-router@1.0.0',
+1675 silly cache add   scope: null,
+1675 silly cache add   name: 'react-router',
+1675 silly cache add   rawSpec: '1.0.0',
+1675 silly cache add   spec: '1.0.0',
+1675 silly cache add   type: 'version' }
+1676 silly addNamed react-router@1.0.0
+1677 verbose addNamed "1.0.0" is a plain semver version for react-router
+1678 silly mapToRegistry name react-router
+1679 silly mapToRegistry using default registry
+1680 silly mapToRegistry registry https://registry.npmjs.org/
+1681 silly mapToRegistry uri https://registry.npmjs.org/react-router
+1682 verbose addNameVersion registry:https://registry.npmjs.org/react-router not in flight; fetching
+1683 verbose afterAdd /home/theo/.npm/webpack-stream/2.1.1/package/package.json written
+1684 verbose get https://registry.npmjs.org/react-router not expired, no request
+1685 silly cache afterAdd react-router@1.0.0
+1686 verbose afterAdd /home/theo/.npm/react-router/1.0.0/package/package.json not in flight; writing
+1687 http 304 https://registry.npmjs.org/reflux
+1688 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1688 verbose headers   via: '1.1 varnish',
+1688 verbose headers   'cache-control': 'max-age=60',
+1688 verbose headers   etag: '"5987I3HFPT1ZXSI3P3VMTQ8VQ"',
+1688 verbose headers   age: '0',
+1688 verbose headers   connection: 'keep-alive',
+1688 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+1688 verbose headers   'x-cache': 'HIT',
+1688 verbose headers   'x-cache-hits': '1',
+1688 verbose headers   'x-timer': 'S1449782008.429846,VS0,VE342',
+1688 verbose headers   vary: 'Accept' }
+1689 silly get cb [ 304,
+1689 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1689 silly get     via: '1.1 varnish',
+1689 silly get     'cache-control': 'max-age=60',
+1689 silly get     etag: '"5987I3HFPT1ZXSI3P3VMTQ8VQ"',
+1689 silly get     age: '0',
+1689 silly get     connection: 'keep-alive',
+1689 silly get     'x-served-by': 'cache-sjc3135-SJC',
+1689 silly get     'x-cache': 'HIT',
+1689 silly get     'x-cache-hits': '1',
+1689 silly get     'x-timer': 'S1449782008.429846,VS0,VE342',
+1689 silly get     vary: 'Accept' } ]
+1690 verbose etag https://registry.npmjs.org/reflux from cache
+1691 verbose get saving reflux to /home/theo/.npm/registry.npmjs.org/reflux/.cache.json
+1692 http 304 https://registry.npmjs.org/webpack
+1693 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1693 verbose headers   via: '1.1 varnish',
+1693 verbose headers   'cache-control': 'max-age=60',
+1693 verbose headers   etag: '"3YSP7PVH52PNI20QEFXGX26NH"',
+1693 verbose headers   age: '15',
+1693 verbose headers   connection: 'keep-alive',
+1693 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+1693 verbose headers   'x-cache': 'HIT',
+1693 verbose headers   'x-cache-hits': '1',
+1693 verbose headers   'x-timer': 'S1449782008.771774,VS0,VE2',
+1693 verbose headers   vary: 'Accept' }
+1694 silly get cb [ 304,
+1694 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1694 silly get     via: '1.1 varnish',
+1694 silly get     'cache-control': 'max-age=60',
+1694 silly get     etag: '"3YSP7PVH52PNI20QEFXGX26NH"',
+1694 silly get     age: '15',
+1694 silly get     connection: 'keep-alive',
+1694 silly get     'x-served-by': 'cache-sjc3127-SJC',
+1694 silly get     'x-cache': 'HIT',
+1694 silly get     'x-cache-hits': '1',
+1694 silly get     'x-timer': 'S1449782008.771774,VS0,VE2',
+1694 silly get     vary: 'Accept' } ]
+1695 verbose etag https://registry.npmjs.org/webpack from cache
+1696 verbose get saving webpack to /home/theo/.npm/registry.npmjs.org/webpack/.cache.json
+1697 verbose afterAdd /home/theo/.npm/react-router/1.0.0/package/package.json written
+1698 http 304 https://registry.npmjs.org/react-select
+1699 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1699 verbose headers   via: '1.1 varnish',
+1699 verbose headers   'cache-control': 'max-age=60',
+1699 verbose headers   etag: '"3VBD8VP01EXHUMTRZBZHGTLDY"',
+1699 verbose headers   age: '0',
+1699 verbose headers   connection: 'keep-alive',
+1699 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+1699 verbose headers   'x-cache': 'HIT',
+1699 verbose headers   'x-cache-hits': '1',
+1699 verbose headers   'x-timer': 'S1449782008.728558,VS0,VE77',
+1699 verbose headers   vary: 'Accept' }
+1700 silly get cb [ 304,
+1700 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1700 silly get     via: '1.1 varnish',
+1700 silly get     'cache-control': 'max-age=60',
+1700 silly get     etag: '"3VBD8VP01EXHUMTRZBZHGTLDY"',
+1700 silly get     age: '0',
+1700 silly get     connection: 'keep-alive',
+1700 silly get     'x-served-by': 'cache-lax1433-LAX',
+1700 silly get     'x-cache': 'HIT',
+1700 silly get     'x-cache-hits': '1',
+1700 silly get     'x-timer': 'S1449782008.728558,VS0,VE77',
+1700 silly get     vary: 'Accept' } ]
+1701 verbose etag https://registry.npmjs.org/react-select from cache
+1702 verbose get saving react-select to /home/theo/.npm/registry.npmjs.org/react-select/.cache.json
+1703 http 304 https://registry.npmjs.org/react-bootstrap
+1704 verbose headers { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1704 verbose headers   via: '1.1 varnish',
+1704 verbose headers   'cache-control': 'max-age=60',
+1704 verbose headers   etag: '"4CJZLAVULMF9XKJ1RN38OPEJB"',
+1704 verbose headers   age: '0',
+1704 verbose headers   connection: 'keep-alive',
+1704 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+1704 verbose headers   'x-cache': 'HIT',
+1704 verbose headers   'x-cache-hits': '1',
+1704 verbose headers   'x-timer': 'S1449782008.722416,VS0,VE87',
+1704 verbose headers   vary: 'Accept' }
+1705 silly get cb [ 304,
+1705 silly get   { date: 'Thu, 10 Dec 2015 21:13:28 GMT',
+1705 silly get     via: '1.1 varnish',
+1705 silly get     'cache-control': 'max-age=60',
+1705 silly get     etag: '"4CJZLAVULMF9XKJ1RN38OPEJB"',
+1705 silly get     age: '0',
+1705 silly get     connection: 'keep-alive',
+1705 silly get     'x-served-by': 'cache-lax1428-LAX',
+1705 silly get     'x-cache': 'HIT',
+1705 silly get     'x-cache-hits': '1',
+1705 silly get     'x-timer': 'S1449782008.722416,VS0,VE87',
+1705 silly get     vary: 'Accept' } ]
+1706 verbose etag https://registry.npmjs.org/react-bootstrap from cache
+1707 verbose get saving react-bootstrap to /home/theo/.npm/registry.npmjs.org/react-bootstrap/.cache.json
+1708 silly resolveWithNewModule reflux@0.3.0 checking installable status
+1709 silly cache add args [ 'reflux@0.3.0', null ]
+1710 verbose cache add spec reflux@0.3.0
+1711 silly cache add parsed spec { raw: 'reflux@0.3.0',
+1711 silly cache add   scope: null,
+1711 silly cache add   name: 'reflux',
+1711 silly cache add   rawSpec: '0.3.0',
+1711 silly cache add   spec: '0.3.0',
+1711 silly cache add   type: 'version' }
+1712 silly addNamed reflux@0.3.0
+1713 verbose addNamed "0.3.0" is a plain semver version for reflux
+1714 silly mapToRegistry name reflux
+1715 silly mapToRegistry using default registry
+1716 silly mapToRegistry registry https://registry.npmjs.org/
+1717 silly mapToRegistry uri https://registry.npmjs.org/reflux
+1718 verbose addNameVersion registry:https://registry.npmjs.org/reflux not in flight; fetching
+1719 silly resolveWithNewModule webpack@1.12.8 checking installable status
+1720 silly cache add args [ 'webpack@1.12.8', null ]
+1721 verbose cache add spec webpack@1.12.8
+1722 silly cache add parsed spec { raw: 'webpack@1.12.8',
+1722 silly cache add   scope: null,
+1722 silly cache add   name: 'webpack',
+1722 silly cache add   rawSpec: '1.12.8',
+1722 silly cache add   spec: '1.12.8',
+1722 silly cache add   type: 'version' }
+1723 silly addNamed webpack@1.12.8
+1724 verbose addNamed "1.12.8" is a plain semver version for webpack
+1725 silly mapToRegistry name webpack
+1726 silly mapToRegistry using default registry
+1727 silly mapToRegistry registry https://registry.npmjs.org/
+1728 silly mapToRegistry uri https://registry.npmjs.org/webpack
+1729 verbose addNameVersion registry:https://registry.npmjs.org/webpack not in flight; fetching
+1730 silly resolveWithNewModule react-select@1.0.0-beta5 checking installable status
+1731 silly cache add args [ 'react-select@1.0.0-beta5', null ]
+1732 verbose cache add spec react-select@1.0.0-beta5
+1733 silly cache add parsed spec { raw: 'react-select@1.0.0-beta5',
+1733 silly cache add   scope: null,
+1733 silly cache add   name: 'react-select',
+1733 silly cache add   rawSpec: '1.0.0-beta5',
+1733 silly cache add   spec: '1.0.0-beta5',
+1733 silly cache add   type: 'version' }
+1734 silly addNamed react-select@1.0.0-beta5
+1735 verbose addNamed "1.0.0-beta5" is a plain semver version for react-select
+1736 silly mapToRegistry name react-select
+1737 silly mapToRegistry using default registry
+1738 silly mapToRegistry registry https://registry.npmjs.org/
+1739 silly mapToRegistry uri https://registry.npmjs.org/react-select
+1740 verbose addNameVersion registry:https://registry.npmjs.org/react-select not in flight; fetching
+1741 silly resolveWithNewModule react-bootstrap@0.27.3 checking installable status
+1742 silly cache add args [ 'react-bootstrap@0.27.3', null ]
+1743 verbose cache add spec react-bootstrap@0.27.3
+1744 silly cache add parsed spec { raw: 'react-bootstrap@0.27.3',
+1744 silly cache add   scope: null,
+1744 silly cache add   name: 'react-bootstrap',
+1744 silly cache add   rawSpec: '0.27.3',
+1744 silly cache add   spec: '0.27.3',
+1744 silly cache add   type: 'version' }
+1745 silly addNamed react-bootstrap@0.27.3
+1746 verbose addNamed "0.27.3" is a plain semver version for react-bootstrap
+1747 silly mapToRegistry name react-bootstrap
+1748 silly mapToRegistry using default registry
+1749 silly mapToRegistry registry https://registry.npmjs.org/
+1750 silly mapToRegistry uri https://registry.npmjs.org/react-bootstrap
+1751 verbose addNameVersion registry:https://registry.npmjs.org/react-bootstrap not in flight; fetching
+1752 verbose get https://registry.npmjs.org/reflux not expired, no request
+1753 verbose get https://registry.npmjs.org/webpack not expired, no request
+1754 verbose get https://registry.npmjs.org/react-select not expired, no request
+1755 verbose get https://registry.npmjs.org/react-bootstrap not expired, no request
+1756 http fetch 200 https://registry.npmjs.org/eslint/-/eslint-1.10.1.tgz
+1757 silly cache afterAdd reflux@0.3.0
+1758 verbose afterAdd /home/theo/.npm/reflux/0.3.0/package/package.json not in flight; writing
+1759 silly cache afterAdd webpack@1.12.8
+1760 verbose afterAdd /home/theo/.npm/webpack/1.12.8/package/package.json not in flight; writing
+1761 silly cache afterAdd react-select@1.0.0-beta5
+1762 verbose afterAdd /home/theo/.npm/react-select/1.0.0-beta5/package/package.json not in flight; writing
+1763 silly cache afterAdd react-bootstrap@0.27.3
+1764 verbose afterAdd /home/theo/.npm/react-bootstrap/0.27.3/package/package.json not in flight; writing
+1765 verbose afterAdd /home/theo/.npm/reflux/0.3.0/package/package.json written
+1766 verbose afterAdd /home/theo/.npm/webpack/1.12.8/package/package.json written
+1767 verbose afterAdd /home/theo/.npm/react-select/1.0.0-beta5/package/package.json written
+1768 verbose afterAdd /home/theo/.npm/react-bootstrap/0.27.3/package/package.json written
+1769 silly fetchAndShaCheck shasum 174878e3229c008210b9414c3ca3a054c9f1628c
+1770 verbose addTmpTarball /tmp/npm-1744-9a8df941/registry.npmjs.org/eslint/-/eslint-1.10.1.tgz not in flight; adding
+1771 verbose addTmpTarball already have metadata; skipping unpack for eslint@1.10.1
+1772 silly rollbackFailedOptional Starting
+1773 silly rollbackFailedOptional Finishing
+1774 silly runTopLevelLifecycles Starting
+1775 silly runTopLevelLifecycles Finishing
+1776 silly install printInstalled
+1777 verbose stack Error: EACCES, mkdir '/home/theo/.npm/eslint/1.10.1'
+1778 verbose cwd /home/theo/GitHub/Lighthouse/HipVibe/client
+1779 error Linux 3.19.0-31-generic
+1780 error argv "node" "/usr/bin/npm" "install"
+1781 error node v0.10.37
+1782 error npm  v3.5.1
+1783 error path /home/theo/.npm/eslint/1.10.1
+1784 error code EACCES
+1785 error errno 3
+1786 error Error: EACCES, mkdir '/home/theo/.npm/eslint/1.10.1'
+1786 error  { [Error: EACCES, mkdir '/home/theo/.npm/eslint/1.10.1']
+1786 error   errno: 3,
+1786 error   code: 'EACCES',
+1786 error   path: '/home/theo/.npm/eslint/1.10.1',
+1786 error   parent: 'starhackit-ui' }
+1787 error Please try running this command again as root/Administrator.
+1788 verbose exit [ 3, true ]
